@@ -1,10 +1,269 @@
-\chapter{First Appendix with Awesome Data}
-\label{appendixA}
+\chapter{Appendix A}
+
 
 %-----------------------------------
-\section{Awesome Appendix Section}
-\label{appendixA:sec1}
+\section{Code Snippets}
+\label{appendixA:codesnippets}
 %-----------------------------------
 
+\begin{lstlisting}[frame=tb,caption={{\small Method Chaining (\opnumber{5}).}},     label={lst:method_chain},language=java]
+    Class T { String algo="AES/CBC/PKCS5Padding";
+    T mthd1(){ algo = "AES";  return this;} T mthd2(){ algo="DES"; return this;} }
+    Cipher.getInstance(new T().mthd1().mthd2());
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={\small Predictable/Non-Random Derivation of Value (\opnumber{6})}, label={lst:bad_derivation_operator},language=java]
+    val = new Date(System.currentTimeMillis()).toString();
+    new IvParameterSpec(val.getBytes(),0,8);}
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={{\small Exception in an {\em always-false} condition block (\opnumber{7}).}}, label={lst:conditional_exception},language=java]
+    void checkServerTrusted(X509Certificate[] x, String s)
+    throws CertificateException {
+    if (!(null != s && s.equalsIgnoreCase("RSA"))) {
+         throw new CertificateException("not RSA");}
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={\small False return within an {\em always true} condition block (\opnumber{8}).}, label={lst:condition_return},language=java]
+    public boolean verify(String host, SSLSession s) {
+      if(true || s.getCipherSuite().length()>=0)}
+        return true;} return false;}
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={\small Implementing an Interface with no overridden methods.}, label={lst:abstract_extension_empty},language=java]
+    interface ITM extends X509TrustManager { }
+    abstract class ATM implements X509TrustManager { }
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={Inner class object from Abstract type ({\bf OP$_{12}$})}, label={lst:abstract_inner_class},language=java]
+    new HostnameVerifier(){
+      public boolean verify(String h, SSLSession s) {
+        return true; } };
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    
+    \begin{lstlisting}[frame=tb,caption={\small Anonymous Inner Class Object of \texttt{X509ExtendedTrustManager} (\ref{flaw:X509ExtendedTrustManager})}, label={lst:aic_X509ExtendedTrustManager},language=java]
+    new X509ExtendedTrustManager(){
+      public void checkClientTrusted(X509Certificate[] chain, String a) throws CertificateException {}
+      public void checkServerTrusted(X509Certificate[] chain, String authType)throws CertificateException {}
+      public X509Certificate[] getAcceptedIssuers() {return null;} ...};
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+     \begin{lstlisting}[frame=tb,caption={\small Specific Condition in \inlinesmall{checkServerTrusted} method (\ref{flaw:X509TrustManagerSpecificConditions}) }, label={lst:specific_condition_trustmanager},language=java]
+    void checkServerTrusted(X509Certificate[] certs, String s)
+       throws CertificateException {
+     if (!(null != s || s.equalsIgnoreCase("RSA") || certs.length >= 314)) {
+       throw new CertificateException("Error");}}
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={\small Anonymous Inner Class Object of An Empty Abstract Class that implements \hostnameVerifier}, label={lst:aic_empty_ext_abstract_hostname},language=java]
+    abstract class AHV implements HostnameVerifier{} new AHV(){
+      public boolean verify(String h, SSLSession s) 
+          return true;}};
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+        \begin{lstlisting}[frame=tb,caption={Anonymous inner class object with a vulnerable \checkServerTrusted method (F13)}, label={lst:aic_x509tm},language=java]
+    abstract class AbstractTM implements X509TrustManager{} new AbstractTM(){
+      public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {}
+        public X509Certificate[] getAcceptedIssuers() {return null;}}};
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+    \begin{lstlisting}[frame=tb,caption={\small Anonymous Inner Class Object of an Interface that extends \hostnameVerifier}, label={lst:aic_empty_ext_interface_hostname},language=java]
+    interface IHV extends HostnameVerifier{} new IHV(){
+      public boolean verify(String h, SSLSession s) return true;}};
+        \end{lstlisting}
+        \vspace{-0.25em}
+        
+    
+        \begin{lstlisting}[frame=tb,caption={\small Misuse case requiring a trivial new operator}, label={lst:trivial},language=java]
+    KeyGenerator keyGen = KeyGenerator.getInstance("AES");
+    keyGen.init(128); SecretKey secretKey=keyGen.generateKey();
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+        \begin{lstlisting}[frame=tb,caption={\small \cryptoguard's code ignoring names with "android"}, label={lst:android-dot},language=java]
+    if (!className.contains("android."))
+        classNames.add(className.substring(1, className.length() - 1)); return classNames;
+     \end{lstlisting}
+        \vspace{-0.25em}
+        
+        \begin{lstlisting}[frame=tb,caption={\small Generic Conditions in \checkServerTrusted{}}, label={lst:xtrustManagerGenericConditions},language=java]
+    if(!(true || arg0==null || arg1==null)) {
+        throw new CertificateException();}
+    \end{lstlisting}
+    \vspace{-0.25em}
+    
+    
+    \begin{lstlisting}[frame=tb,caption={\small Transformation String formation in Apache Druid similar to \fnumber{2} which uses \AES in \texttt{CBC} mode with \texttt{PKCS5Padding}, a configuration that is known to be a misuse~\cite{FBX+17,owasp:mislabel}.}, label={lst:transformationstring:apache:druid},language=java]
+    this.name = name == null ? "AES" : name;
+    this.mode = mode == null ? "CBC" : mode;
+    this.pad = pad == null ? "PKCS5Padding" : pad;
+    this.string = StringUtils.format(
+        "%
+    \end{lstlisting}
+    \vspace{-0.25em}
+
+    \begin{lstlisting}[frame=tb,caption={\small Iterative Method Chaining}, label={lst:iterativechaining},language=java]
+        Class T {
+        int i = 0;
+        cipher = "AES/GCM/NoPadding";
+        public void A(){
+            cipher = "AES/GCM/NoPadding";
+        }
+        public void B(){
+            cipher = "AES/GCM/NoPadding";
+        }
+        public void C(){
+            cipher = "AES/GCM/NoPadding";
+        }
+        public void D(){
+            cipher = "AES";
+        }
+        public String getVal(){
+            return cipher
+        } }
+
+
+        Cipher.getInstance(new T().A().B().C().D().getVal() ) ;
+        \end{lstlisting}
+        \vspace{-0.25em}
+    
+
+        \begin{lstlisting}[frame=tb,caption={\small Iterative Conditionals}, label={lst:iterativeconditionals},language=java]
+            Class T {
+            int i = 0;
+            cipher = "AES/GCM/NoPadding";
+            public void A(){
+            if ( i == 0){
+                if (i == 0){
+                    if(i == 0){
+                        cipher = "AES";
+                    }
+                    else{
+                        cipher = "AES/GCM/NoPadding";
+                    }
+                }
+                else{
+                    cipher = "AES/GCM/NoPadding";
+                    }
+            } else{
+                cipher = "AES/GCM/NoPadding";
+
+            }}
+            
+            public String getVal(){
+                return cipher
+            } }
+    
+    
+            Cipher.getInstance(new T().A().getVal() ) ;
+                
+            \end{lstlisting}
+            \vspace{-0.25em}
+
+
+\begin{lstlisting}[frame=tb,caption={\small Iterative Conditionals}, label={lst:iterativeconditionals},language=java]
+            Class T {
+            int i = 0;
+            cipher = "AES/GCM/NoPadding";
+            public void A(){
+            if ( i == 0){
+                if (i == 0){
+                    if(i == 0){
+                        cipher = "AES";
+                    }
+                    else{
+                        cipher = "AES/GCM/NoPadding";
+                    }
+                }
+                else{
+                    cipher = "AES/GCM/NoPadding";
+                    }
+            } else{
+                cipher = "AES/GCM/NoPadding";
+
+            }}
+            
+            public String getVal(){
+                return cipher
+            } }
+    
+    
+            Cipher.getInstance(new T().A().getVal() ) ;
+                
+            \end{lstlisting}
+            \vspace{-0.25em}
+
+
+            \begin{lstlisting}[frame=tb,caption={\small Method Builder}, label={lst:methodbuilder},language=java]
+                Class T {
+                int i = 0;
+                cipher = "AES/GCM/NoPadding";
+                public String A(){
+                    return "D";
+                }
+                public String B(){
+                    return "E";
+                }
+                public String C(){
+                    return "S";
+                }
+                public void add(){
+                    cipher = A() + B() + C();
+                }
+                public String getVal(){
+                    return cipher
+                } }
+        
+        
+                Cipher.getInstance(new T().add().getVal() ) ;
+                \end{lstlisting}
+                \vspace{-0.25em}
+            
+
+                \begin{lstlisting}[frame=tb,caption={\small Iterative Conditionals, using the object created in Listing A.1}, label={lst:iterativeconditionals},language=java]
+                    T secure = new T();
+                    T insecure = new T().mthd2();
+                    secure = insecure;
+                    Cipher.getInstance(secure.getVal());
+                    
+                        
+                    \end{lstlisting}
+                    \vspace{-0.25em}
+
+\begin{lstlisting}[frame=tb,caption={\small Build Variable}, label={lst:buildvariable},language=java]
+    String cryptoVariable = "AES";
+    char[] cryptoVariable1  = cryptoVariable.toCharArray();
+    javax.crypto.Cipher.getInstance(String.valueOf(cryptoVariable1));
+                        
+                            
+\end{lstlisting}
+\vspace{-0.25em}
+
+\begin{lstlisting}[frame=tb,caption={\small Substring}, label={lst:substring},language=java]
+    javax.crypto.Cipher.getInstance("secureParamAES".substring(11));
+                        
+                            
+\end{lstlisting}
+\vspace{-0.25em}
+
+\begin{lstlisting}[frame=tb,caption={\small Static Keystore}, label={lst:statickeystore},language=java]
+    byte[] cryptoTemp = "12345678".getBytes();
+    javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec.getInstance(cryptoTemp,"AES");
+                        
+                            
+\end{lstlisting}
+\vspace{-0.25em}
+        
 
 

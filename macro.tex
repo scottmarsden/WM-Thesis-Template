@@ -94,11 +94,6 @@
    \newcommand{\cvsversion}{}
   }
 
-\newcommand\KEVIN[1]{{\color{blue} \nb{KEVIN}{#1}}}
-\newcommand\MICHAEL[1]{{\color{blue} \nb{MICHAEL}{#1}}}
-\newcommand\CARLOS[1]{{\color{blue} \nb{CARLOS}{#1}}}
-\newcommand\RICHIE[1]{{\color{blue} \nb{RICHIE}{#1}}}
-\newcommand\DENYS[1]{{\color{blue} \nb{DENYS}{#1}}}
 
 \newcommand{\ie}{\textit{i.e.},\xspace}
 \newcommand{\eg}{\textit{e.g.},\xspace}
@@ -110,6 +105,108 @@
 
 \newcommand\operator[2]{{\bf OP$_{#1}$: {\em {#2}} -- }}
 \newcommand\opnumber[1]{{{\bf OP}$_{#1}$}}
+
+\newcommand{\projtodo}[1]{{\color{red}{\bf TODO:}#1}}
+
+\newcommand*{\img}[1]{%
+    \raisebox{-.2\baselineskip}{%
+        \includegraphics[
+        height=0.85\baselineskip,
+        width=0.85\baselineskip,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+
+
+
+\setboolean{showcomments}{true}
+
+
+
+\newcommand{\addnewline}{\\}
+
+\newcommand{\cancel}[1]{{\leavevmode\color{RubineRed}{\sout{\xspace#1}}}}
+\newcommand{\edit}[2]{{\leavevmode\color{RubineRed}{\sout{#1}}}{\color{blue}{\xspace#2}}}
+\newcommand{\editl}[2]{{\leavevmode\color{RubineRed}{\addnewline\sout{#1}}}{\color{blue}{\addnewline\xspace#2\addnewline}}}
+\newcommand{\rewrite}[2]{{\leavevmode\color{RubineRed}{\sout{#1}}}{\color{Green}{\arrow\xspace#2}}}
+
+
+\newcommand{\add}[1]{{\leavevmode\color{blue}{#1}}}
+\newcommand{\addamit}[1]{{\leavevmode\color{black}{#1}}}
+\newcommand{\addnew}[1]{{\leavevmode\color{black}{#1}}}
+
+\newcommand{\addl}[1]{{\leavevmode\color{Green}{\addnewline+ \xspace#1\addnewline}}}
+\newcommand{\remove}[1]{{\leavevmode\color{red}{\xspace#1}}}
+\newcommand{\removel}[1]{{\leavevmode\color{red}{\addnewline- \xspace#1\addnewline}}}
+
+
+\newcommand{\grayme}[1]{{\leavevmode\color{gray}{\xspace#1}}}
+
+
+\newcommand{\recycler}{\textsf{RecyclerView}\xspace}
+
+
+\newcommand\finding[1]{\vspace{0.25em}\noindent\textsf{\bf Finding {#1}.}}
+\newcommand\fnumber[1]{{\bf F{#1}}}
+\newcommand\opnumbernormal[1]{{{OP}$_{#1}$}}
+
+
+
+\newcommand{\arrow}{{$\rightarrow$}\xspace}
+\newcommand\inline[1]{{\lstinline[keywordstyle=\color{black},basicstyle=\scriptsize\ttfamily,stringstyle=\color{black}]{#1}}}
+\newcommand\inlinesmall[1]{{\lstinline[keywordstyle=\color{black},basicstyle=\small\ttfamily,stringstyle=\color{black}]{#1}}}
+
+
+
+\newcommand{\boxme}[1]{{
+\begin{tcolorbox}[enhanced,skin=enhancedmiddle,borderline={1mm}{0mm}{MidnightBlue}]
+    \textbf{Insight: } #1 \end{tcolorbox}
+}}
+
+
+
+\newcommand\fix[1]{{\color{blue} \nb{FIX THIS}{#1}}}
+\newcommand\blue[1]{{\color{blue}{#1}}}
+\newcommand{\here}{{\color{blue} \nb{***}{CONTINUE HERE}}}
+\newcommand{\REF}{{\color{red} \textbf{[REFS]}}\xspace}
+\newcommand{\xy}{{\color{red} \textbf{XY}}\xspace}
+\newcommand\tops[1]{{\color{blue}{#1}}}
+\newcommand\alert[1]{{\color{red}{#1}}}
+
+
+\newcommand{\target}{\textit{target tool}\xspace}
+\newcommand{\targets}{\textit{target tools}\xspace}
+\newcommand{\behavior}{\textit{target behavior}\xspace}
+
+
+\newcommand{\mplus}{{\sc MDroid+}\xspace}
+
+\newcommand{\secref}[1]{\S\ref{#1}\xspace}
+\newcommand{\figref}[1]{Fig.~\ref{#1}\xspace}
+\newcommand{\tabref}[1]{Table~\ref{#1}\xspace}
+\newcommand{\Phase}{{\sc Phase}\xspace}
+\newcommand{\Phases}{{\sc Phase's~}\xspace}
+
+\newcommand{\emphquote}[1]{{\emph{`#1'}}\xspace}
+\newcommand{\emphdblquote}[1]{{\emph{``#1''}}\xspace}
+
+\newcommand{\emphbrack}[1]{\emph{[#1]}\xspace}
+
+\newcommand{\subj}{\emphbrack{subject}}
+\newcommand{\act}{\emphbrack{action}}
+\newcommand{\obj}{\emphbrack{object}}
+\newcommand{\prep}{\emphbrack{preposition}}
+\newcommand{\objtwo}{\emphbrack{object2}}
+
+\newcommand*\ciclednum[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt}
+{#1}}}}
+
+\newcommand\codel[1]{\begin{verbatim}{#1}\end{verbatim}}
+
+
+
+
 
 
 

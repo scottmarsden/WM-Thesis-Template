@@ -1,0 +1,95 @@
+
+\begin{table}[t]
+    \centering
+    \scriptsize
+    \caption{\small Flaws observed in different static crypto-detectors}
+    
+	
+    \label{tbl:flaw_to_tools}
+	\def\arraystretch{1.2}
+	\begin{tabular}{
+	p{0.4cm}|C{0.2cm}|C{0.2cm}|C{0.2cm}|C{0.2cm}|C{0.2cm}|C{0.2cm}|C{0.2cm}|C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.2cm} | C{0.4cm}
+	}
+
+	
+	\textbf{Class} & \textbf{ID} & \textbf{\cryptoguardshort} & \textbf{\cognicryptshort} & \textbf{\sportbugsshort} & \textbf{\xanitizershort} & \textbf{\coverityshort} & \textbf{\qashort} & \textbf{\shiftleftshort} &\textbf{\codeqlgcsshort} & \textbf{\codeqlshort} & \textbf{\codegurushort} & \textbf{\sonarqubeshort} & \textbf{\snykshort} & \textbf{\codigashort} & \textbf{\deepsourceshort} & \textbf{\newcodeqlshort} & \textbf{\newcryptoguardshort} & \textbf{\newcognicryptshort} & \textbf{\newspotbugsshort} & \textbf{\newcoverityshort} & \textbf{\newqarkshort} & \textbf{\newshiftleftshort} & \textbf{\newcqversion} & \textbf{\newlgtmshort}
+	\\\Xhline {2}
+
+	\multirow{1}{*}{FC1}
+	& \ref{flaw:smallCaseParameter}
+	&	\TsmallCaseParameter
+	\hline
+
+	\multirow{8}{*}{FC2}
+	& \ref{flaw:valueInVariable}
+	& \TvalueInVariable
+	\cline{2-24}
+	& \ref{flaw:secureParameterReplaceInsecure}*
+	&	\TsecureParameterReplaceInsecure
+	\cline{2-24}
+	& \ref{flaw:insecureParameterReplaceInsecure}*
+	&	\TinsecureParameterReplaceInsecure
+	\cline{2-24}
+	& \ref{flaw:stringCaseTransform}*
+	&	\TstringCaseTransform
+	\cline{2-24}
+	& \ref{flaw:noiseReplace}*
+	&	\TnoiseReplace
+	\cline{2-24}
+	& \ref{flaw:parameterFromMethodChaining}
+	&	\TparameterFromMethodChaining
+	\cline{2-24}
+	& \ref{flaw:deterministicByteFromCharacters}
+	&	\TdeterministicByteFromCharacterConcat
+	\cline{2-24}
+	& \ref{flaw:predictableByteFromSystemAPI}
+	&	\TpredictableByteFromSystemAPI
+	\hline
+
+	\multirow{4}{*}{FC3}
+	& \ref{flaw:X509ExtendedTrustManager}
+	&	\TXExtendedTrustManager
+	\cline{2-24}
+
+	& \ref{flaw:X509TrustManagerSubType}
+	&	\TXTrustManagerSubType
+	\cline{2-24}
+
+	& \ref{flaw:IntHostnameVerifier}
+	&	\TIntHostnameVerifier
+	\cline{2-24}
+
+	& \ref{flaw:AbcHostnameVerifier}
+	&	\TAbcHostnameVerifier
+	\hline
+
+	\multirow{3}{*}{FC4}
+	& \ref{flaw:X509TrustManagerGenericConditions}
+	&	\TXTrustManagerGenericConditions
+	\cline{2-24}
+	& \ref{flaw:IntHostnameVerifierGenericCondition}
+	&	\TIntHostnameVerifierGenericCondition
+	\cline{2-24}
+	& \ref{flaw:AbcHostnameVerifierGenericCondition}
+	&	\TAbcHostnameVerifierGenericCondition
+	\hline
+
+
+	\multirow{3}{*}{FC5}
+	& \ref{flaw:X509TrustManagerSpecificConditions}
+	&	\TXTrustManagerSpecificConditions
+	\cline{2-24}
+	& \ref{flaw:IntHostnameVerifierSpecificCondition}
+	&	\TIntHostnameVerifierSpecificCondition
+	\cline{2-24}
+	& \ref{flaw:AbcHostnameVerifierSpecificCondition}
+	&	\TAbcHostnameVerifierSpecificCondition
+	\Xhline {2}
+\end{tabular}
+\begin{flushleft}
+{\footnotesize \no{} = Flaw Present, \ye{} = Flaw Absent, \pr{} = Flaw partially present, \na = detector does not claim to handle the misuse associated with the flaw, \np= detector claims to handle but did not detect base version of misuse nr =  not yet run; CG~=~CryptoGuard,  CC~=~\cognicrypt, SB~=~\spotbug, \xanitizershort~=~\xanitizer, \coverityshort~=~\coverity, QA~=~\qark, \shiftleftshort~=~ShiftLeft, \codeqlgcsshort~=~\codeqlgcs, \codegurushort~=~\codeguru, \sonarqubeshort~=~\sonarqube, \snykshort~=~\snyk, \codigashort~=~\codiga, \deepsourceshort~=~\deepsource, \newcodeqlshort~=~\newcodeql, \newcryptoguardshort~=~\cryptoguardupdate, \newcognicryptshort~=~\cognicryptupdate, \newspotbugsshort~=~\spotbugsupdate, \newcoverityshort~=~\coverityupdate, \newqarkshort~=~\qarkupdate, \newshiftleftshort~=~\shiftleftupdate, \newcqversion~=~\codeqlversion, \newlgtmshort~=~\newlgtm.\\
+*Certain seemingly-unrealistic flaws may be seen in/outside a \detector's ``scope'', depending on the perspective; see Section discussion for a broader treatment of this caveat.
+}
+\end{flushleft}
+ \vspace{-3.0em}
+\end{table}

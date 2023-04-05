@@ -220,7 +220,7 @@
         \hspace{.1in}  \\ % 4 lines between prior degrees and purpose statement -- Ruth
     {A Dissertation presented to the Graduate Faculty\\
          of the College of William \& Mary in Candidacy for the Degree of\\
-         <Insert Degree Name>}\\
+         Master of Science}\\
         \hspace{.1in}  \\
         \hspace{.1in}  \\
         \hspace{.1in}  \\
@@ -290,7 +290,7 @@
 		\hspace{1in}  \\
 		
 		
-		{\fontsize{12}{5}\selectfont \copyright~Copyright by Student Name 2018}
+		{\fontsize{12}{5}\selectfont \copyright~Copyright by Scott Marsden 2023}
 		
 		\end{center}
 	\end{singlespace} \end{titlepage}
@@ -312,7 +312,7 @@
     {\large This Dissertation is submitted in partial fulfillment of \\
          the requirements for the degree of}\\
         \hspace{.1in}  \\ % 1 lines between statements
-    {\large <Insert Degree Name>}\\
+    {\large Master's of Science in Computer Science}\\
         \hspace{.1in}  \\
         \hspace{.1in}  \\
         \hspace{.1in}  \\ % 3 lines between statement and signature line -- Ruth
@@ -343,18 +343,7 @@
         \hspace{.1in}  \\
         \hspace{.1in}  \\
         \hspace{.1in}  \\ % 3 lines between signatures -- Ruth
- \underline{\hspace*{\thesisapprovalwidth}}\\
-    {\small\thesis@memberiv, \thesis@positioniv\\
-    College of William \& Mary}
-        \hspace{.1in}  \\
-        \hspace{.1in}  \\
-        \hspace{.1in}  \\ % 3 lines between signatures -- Ruth
-         \underline{\hspace*{\thesisapprovalwidth}}\\
-    {\small\thesis@memberv, \thesis@positioniv\\
-    The University of Texas at Dallas}
-        \hspace{.1in}  \\
-        \hspace{.1in}  \\
-        \hspace{.1in}  \\ % 3 lines between signatures -- Ruth
+ 
    \end{center}\end{singlespace}
 
 }

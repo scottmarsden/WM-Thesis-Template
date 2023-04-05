@@ -5,6 +5,7 @@
 \usepackage{balance}
 \usepackage{caption}
 \usepackage{moresize}
+\usepackage{changepage}
 \usepackage{pbox}
 \usepackage{mathtools}
 \usepackage[TABBOTCAP]{subfigure}
@@ -46,11 +47,15 @@
 \renewcommand{\sfdefault}{cmr} % Arial
 \renewcommand{\cftchapfont}{\rm } %no bold in toc
 \renewcommand{\cftchappagefont}{\rm } %no bold in toc
+\newcommand\flawtag[2]{#1\def\@currentlabel{#1}\label{#2}}
 \usepackage{tikz}
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=0.5pt] (char) {#1};}}
 
 \include{macro}
+\include{constants}
+\input{tables/experimental_rows}
+
 
 
 % The wmthesis class is based on the latex report class whic
@@ -113,22 +118,20 @@
 
 %%--Set thesis info.
 %%--*IMPORTANT* Title cannot be in ALL CAPS
-\thesisTitle{Clever Thesis Title}
-\thesisAuthor[Student Full Name]{Student Shortened Name}
-\thesisMonth{August}
-\thesisYear{2018}
-\thesisAdvisor{Associate Professor FirstName LastName}
+\thesisTitle{A Reevaluation of Why Crypto-detectors Fail: A Systematic Revaluation of Cryptographic Misuse Detection Techniques}
+\thesisAuthor[Scott Marsden]{Scott Marsden}
+\thesisMonth{April}
+\thesisYear{2023}
+\thesisAdvisor{Associate Professor Denys Poshyvanyk}
 % location and degrees added 
 % note that the degree should be spelled out, not abbreviated
-\thesisLocation{Hometown, HomeState, HomeCountry}
-\thesisDegreeOne{Bachelor of Arts, University Name, 2013}
-\thesisDegreeTwo{Master of Science, University Name, 2015}
+\thesisLocation{Sherman Oaks, California, United States of America}
+\thesisDegreeOne{Bachelor of Science, Elon University, 2020}
+\thesisDegreeTwo{Master of Science, College of William and Mary, 2023}
 %\thesisDegreeThree{Master of Science, College of William and Mary, 2015}
 \thesisCommittee[Computer Science]{\ThesisAdvisor}
-\thesisCommittee[Computer Science]{Associate Professor FirstName LastName}
-\thesisCommittee[Computer Science]{Assistant Professor FirstName LastName}
-\thesisCommittee[Computer Science]{Assistant Professor FirstName LastName}
-\thesisCommittee[Computer Science]{Professor FirstName LastName}
+\thesisCommittee[Computer Science]{Professor Dmitry Evtyushkin}
+\thesisCommittee[Computer Science]{Professor Adwait Nadkarni}
 
 \thesisDedication{Insert heartfelt dedication here...}
 
@@ -147,7 +150,8 @@
 \include{Chapter-Evaluation}
 \include{Chapter-Results}
 \include{Chapter-Conclusion}
-
+%\bibliographystyle{wmbib}
+%\bibliography{references.bib}
 
 % Start calling the chapters Appendices
 \appendix
@@ -157,10 +161,10 @@
 
 
 %--List of references not actually cited in the document.
-%\nocite{NDSS04DTLS}
+%-- \nocite{*}
 
 %--Include the bibliography
-\makeThesisBib{references}
+
 %\bibliography{references}
 %% I did not include the following in my dissertation, so I have no knowledge
 %% of their formatting compliance. -- Ruth

@@ -25,5 +25,5 @@
 \contentsline {subsection}{\numberline {6.0.2}Discussion}{37}{subsection.6.0.2}%
 \contentsline {subsection}{\numberline {6.0.3}Lessons Learned}{39}{subsection.6.0.3}%
 \contentsline {subsection}{\numberline {6.0.4}Conclusion}{39}{subsection.6.0.4}%
-\contentsline {chapter}{\numberline {A}First Appendix with Awesome Data}{40}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Awesome Appendix Section}{40}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Appendix A}{40}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Code Snippets}{40}{section.A.1}%

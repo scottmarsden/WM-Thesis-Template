@@ -1,0 +1,125 @@
+\begin{table*}[h!]
+    \centering
+	\scriptsize
+    \caption{\small Descriptions of Flaws discovered by Analyzing \detectors.}
+    \vspace{-1em}
+    \label{tbl:flaws}
+    \def\arraystretch{1.2}
+    \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.22\textwidth}|X}
+    \Xhline{2\arrayrulewidth}
+    \hline
+    \textbf{ID} & \textbf{Flaw Name} (\textbf{Operator}) & \textbf{Description of Flaws} \\\hline
+
+
+    \hline
+
+    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{\fcdifferentcase+}}}\\
+    \hline
+
+    \flawtag{F1}{flaw:smallCaseParameter} & smallCaseParameter  (\opnumber{1}) & Not detecting an insecure algorithm provided in lower case; \eg
+    \inline{Cipher.getInstance("des");}
+    \\\hline
+
+    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{\fcvalueresoluion+}}}\\
+    \hline
+
+    \flawtag{F2}{flaw:valueInVariable} & valueInVariable (\opnumber{2}) & Not resolving values passed through variables. \eg
+    \inline{String value = "DES"; Cipher.getInstance(value);}
+    \\\hline
+
+    \flawtag{F3}{flaw:secureParameterReplaceInsecure}*  & secureParameterReplaceInsecure (\opnumber{4}) & Not resolving parameter replacement; \eg\
+    \inline{MessageDigest.getInstance("SHA-256".replace("SHA-256", "MD5"));}
+    \\\hline
+
+    \flawtag{F4}{flaw:insecureParameterReplaceInsecure}* & insecureParameterReplaceInsecure (\opnumber{4}) & Not resolving an {\em insecure} parameter's replacement with another {\em insecure} parameter \eg \newline
+    \inline{Cipher.getInstance("AES".replace("A", "D"));} (\ie where "AES" by itself is insecure as it defaults to using ECB).
+    \\\hline
+
+    \flawtag{F5}{flaw:stringCaseTransform}* & stringCaseTransform (\opnumber{3}) & Not resolving the case after transformation for analysis; \eg
+    \inline{Cipher.getInstance("des".toUpperCase(Locale.English));}
+    \\\hline
+
+    \flawtag{F6}{flaw:noiseReplace}* & noiseReplace (\opnumber{4}) & Not resolving noisy versions of insecure parameters, when noise is removed through a transformation; \eg \newline
+    \inline{Cipher.getInstance("DE\$S".replace("\$", ""));}
+    \\\hline
+
+    \flawtag{F7}{flaw:parameterFromMethodChaining} & parameterFromMethodChaining (\opnumber{5}) & Not resolving insecure parameters that are passed through method chaining, \ie from a class that contains both secure and insecure values; \eg
+    \inline{Cipher.getInstance(obj.A().B().getValue());}
+    where obj.A().getValue() returns the secure value, but obj.A().B().getValue(), and obj.B().getValue()  return the insecure value.
+    \\\hline
+
+    \flawtag{F8}{flaw:deterministicByteFromCharacters}* & deterministicByteFromCharacters (\opnumber{6}) & Not detecting {\em constant IVs}, if created using complex loops, casting, and string transformations;
+    \eg a
+    \inline{new IvParameterSpec(v.getBytes(),0,8)}, which uses a
+    \inline{String v=""; for(int i=65; i<75; i++)\{ v+=(char)i;\}}
+    \\\hline
+
+    \flawtag{F9}{flaw:predictableByteFromSystemAPI} & predictableByteFromSystemAPI (\opnumber{6}) & Not detecting {\em predictable IVs} that are created using a predictable source (\eg system time), converted to bytes;
+    \eg
+    \inline{new IvParameterSpec(val.getBytes(),0,8);},
+    such that
+    \inline{val = new Date(System.currentTimeMillis()).toString();}
+    \\\hline
+
+    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{\fcomplexinheritance}}}\\
+    \hline
+
+    \flawtag{F10}{flaw:X509ExtendedTrustManager} &
+    X509ExtendedTrustManager (\opnumber{12}) & Not detecting {\em vulnerable SSL verification} in {\em anonymous inner class objects} created from the {\scriptsize \tt X509ExtendedTrustManager} class from JCA; \eg see Listing~\ref{lst:aic_X509ExtendedTrustManager} in Appendix).
+    \\\hline
+
+    \flawtag{F11}{flaw:X509TrustManagerSubType} &
+    X509TrustManagerSubType (\opnumber{12}) & Not detecting {\em vulnerable SSL verification} in anonymous inner class objects {\em created from an empty abstract class} which implements the {\scriptsize \tt X509TrustManager} interface; \eg see Listing~\ref{lst:aic_x509tm}).
+    \\\hline
+
+    \flawtag{F12}{flaw:IntHostnameVerifier} &
+    IntHostnameVerifier (\opnumber{12}) & Not detecting {\em vulnerable hostname verification} in an anonymous inner class object that is created from an {\em interface that extends} the {\tt \scriptsize HostnameVerifier} interface from JCA; \eg see Listing~\ref{lst:aic_empty_ext_interface_hostname} in Appendix.
+    \\\hline
+
+    \flawtag{F13}{flaw:AbcHostnameVerifier} &
+    AbcHostnameVerifier (\opnumber{12}) & Not detecting {\em vulnerable hostname verification} in an anonymous inner class object that is created from an {\em empty abstract class} that {\em implements} the {\tt \scriptsize HostnameVerifier} interface from JCA; \eg see Listing~\ref{lst:aic_empty_ext_abstract_hostname} in Appendix.
+    \\\hline
+
+    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{\fcgenericnoise}}}\\
+    \hline
+
+    \flawtag{F14}{flaw:X509TrustManagerGenericConditions} & X509TrustManagerGenericConditions (\opnumber{7}, \opnumber{9}, \opnumber{12}) &
+    Insecure validation of a overridden {\scriptsize \tt checkServerTrusted} method created within an anonymous inner class (constructed similarly as in {\bf F13}), due to the failure to detect {\em security exceptions thrown under impossible conditions}; \eg\ {\scriptsize \tt  if(!(true||arg0 == null||arg1 == null)){ throw new CertificateException();}}
+    \\\hline
+
+    \flawtag{F15}{flaw:IntHostnameVerifierGenericCondition} & IntHostnameVerifierGenericCondition (\opnumber{8}, \opnumber{12}) &
+    Insecure analysis of vulnerable hostname verification, \ie the {\tt \scriptsize verify()} method within an anonymous inner class (constructed similarly as in {\bf F14}), due to the failure to detect {\em an always-true condition block that returns {\tt \scriptsize true}}; \eg {\scriptsize \tt if(true || session == null) return true; return false;}
+       \\\hline
+
+    \flawtag{F16}{flaw:AbcHostnameVerifierGenericCondition} & AbcHostnameVerifierGenericCondition (\opnumber{8}, \opnumber{12}) &
+    Insecure analysis of vulnerable hostname verification, \ie the {\tt \scriptsize verify()} method within an anonymous inner class (constructed similarly as in {\bf F15}), due to the failure to detect {\em an always-true condition block that returns {\tt \scriptsize true}}; \eg {\scriptsize \tt if(true || session == null) return true; return false;}
+    \\\hline
+
+    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{\fcspecificnoise}}}\\
+    \hline
+
+    \flawtag{F17}{flaw:X509TrustManagerSpecificConditions} & X509TrustManagerSpecificConditions (\opnumber{7}, \opnumber{12}) &
+    Insecure validation of a overridden {\scriptsize \tt checkServerTrusted} method created within an anonymous inner class created from the {\tt X509TrustManager}, due to the failure to detect {\em security exceptions thrown under impossible but \underline{context-specific} conditions, \ie conditions that seem to be relevant due to specific variable use, but are actually not};
+    \eg {\inline{if (!(null != s || s.equalsIgnoreCase("RSA") || certs.length >= 314)) {throw new CertificateException("RSA");}}}
+    \\\hline
+
+    \flawtag{F18}{flaw:IntHostnameVerifierSpecificCondition} & IntHostnameVerifierSpecificCondition (\opnumber{8}, \opnumber{12}) &
+    Insecure analysis of vulnerable hostname verification, \ie the {\tt \scriptsize verify()} method within an anonymous inner class (constructed similarly as in {\bf F14}), due to the failure to detect {\em a \underline{context-specific} always-true condition block that returns {\tt \scriptsize true}}; \eg {\scriptsize \tt if(true || session.getCipherSuite().length()>=0) return true; return false;}
+    \\\hline
+
+    \flawtag{F19}{flaw:AbcHostnameVerifierSpecificCondition} & AbcHostnameVerifierSpecificCondition (\opnumber{8}, \opnumber{12}) &
+    Insecure analysis of vulnerable hostname verification, \ie the {\tt \scriptsize verify()} method within an anonymous inner class (constructed similarly as in {\bf F15}), due to the failure to detect {\em a \underline{context-specific} always-true condition block that returns {\tt \scriptsize true}};
+    \eg
+    \inline{if(true || session.getCipherSuite().length()>=0) return true; return false;}
+    \\\hline
+    \Xhline{2\arrayrulewidth}
+    \end{tabularx}
+ \vspace{-1.2em}
+\begin{flushleft}
+{
++ flaws were observed for mulitple API misuse cases\\ 
+\add{*Certain seemingly-unrealistic flaws may be seen in or outside a \detector's ``scope'', depending on the perspective; see Section~\ref{sec:discussion} for a broader treatment of this caveat.}
+}
+\end{flushleft}
+ \vspace{-3em}
+\end{table*}
