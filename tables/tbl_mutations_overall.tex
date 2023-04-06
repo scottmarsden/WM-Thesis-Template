@@ -1,0 +1,24 @@
+\begin{table}[t]
+    \centering
+	\scriptsize
+    \caption{\small Mutants analyzed vs detected by \detectors}
+   	\vspace{-1em}
+    \label{tbl:mutations_overall}
+    \def\arraystretch{1.2}
+    \begin{tabularx}{.471\textwidth}{p{0.18\linewidth}|p{0.33\linewidth}|p{0.1\linewidth}|X}
+    
+        \textbf{Tool} & \textbf{Input Type} & \textbf{Analyzed} & \textbf{Detected }
+        \\ 
+        {\em \snyk} & 	Java Src Code  &	47,002 & 	40,877
+        \\ \hline
+        {\em \deepsource} &	Java Src Code 	& 47,002 & 17,028
+        \\ \hline
+        {\em \codiga} &	Java Src Code 	& 26,725 & 0
+        \\ \hline
+        {\em \sonarqube} &	Java Src Code 	& 13,749 & 11,601
+        \\ \hline
+        {\em \codeguru} &	Java Src Code 	& 46,967 & 840
+        \\
+        
+\end{tabularx}
+\end{table}

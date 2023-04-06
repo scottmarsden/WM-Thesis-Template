@@ -1,12 +1,9 @@
-\begin{table*}[h!]
+\begin{table*}[!ht]
     \centering
 	\scriptsize
     \caption{\small Descriptions of Flaws discovered by Analyzing \detectors.}
-    \vspace{-1em}
     \label{tbl:flaws}
-    \def\arraystretch{1.2}
     \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.22\textwidth}|X}
-    \Xhline{2\arrayrulewidth}
     \hline
     \textbf{ID} & \textbf{Flaw Name} (\textbf{Operator}) & \textbf{Description of Flaws} \\\hline
 
@@ -112,14 +109,11 @@
     \eg
     \inline{if(true || session.getCipherSuite().length()>=0) return true; return false;}
     \\\hline
-    \Xhline{2\arrayrulewidth}
     \end{tabularx}
- \vspace{-1.2em}
 \begin{flushleft}
 {
 + flaws were observed for mulitple API misuse cases\\ 
 \add{*Certain seemingly-unrealistic flaws may be seen in or outside a \detector's ``scope'', depending on the perspective; see Section~\ref{sec:discussion} for a broader treatment of this caveat.}
 }
 \end{flushleft}
- \vspace{-3em}
 \end{table*}

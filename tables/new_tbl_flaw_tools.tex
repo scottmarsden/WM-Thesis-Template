@@ -1,0 +1,92 @@
+
+\begin{table}[t]
+    \centering
+    \scriptsize
+    \caption{\small Flaws observed in different static crypto-detectors}
+    
+	
+    \label{tbl:flaw_to_tools}
+	\begin{tabular}{
+	p{0.5cm} | C{0.3cm} | c | c | c | c | c | c | c | c | c | c | c | c }
+	
+	\textbf{Class} & \textbf{ID} & \textbf{\sonarqubeshort} & \textbf{\snykshort} & \textbf{\codigashort} & \textbf{\deepsourceshort} & \textbf{\newcodeqlshort} & \textbf{\newcryptoguardshort} & \textbf{\newcognicryptshort} & \textbf{\newspotbugsshort} & \textbf{\newcoverityshort} & \textbf{\newqarkshort} & \textbf{\newshiftleftshort} & \textbf{\newlgtmshort}
+	\\
+
+
+	\multirow{1}{*}{FC1}
+	& F1
+	&	\TsmallCaseParameter
+	\hline
+
+	\multirow{8}{*}{FC2}
+	& F2
+	& \TvalueInVariable
+	\cline{2-13}
+	& F3*
+	&	\TsecureParameterReplaceInsecure
+	\cline{2-13}
+	& F4*
+	&	\TinsecureParameterReplaceInsecure
+	\cline{2-13}
+	& F5*
+	&	\TstringCaseTransform
+	\cline{2-13}
+	& F6*
+	&	\TnoiseReplace
+	\cline{2-13}
+	& F7
+	&	\TparameterFromMethodChaining
+	\cline{2-13}
+	& F8
+	&	\TdeterministicByteFromCharacterConcat
+	\cline{2-13}
+	& F9
+	&	\TpredictableByteFromSystemAPI
+	\hline
+
+	\multirow{4}{*}{FC3}
+	& F10
+	&	\TXExtendedTrustManager
+	\cline{2-13}
+
+	& F11
+	&	\TXTrustManagerSubType
+	\cline{2-13}
+
+	& F12
+	&	\TIntHostnameVerifier
+	\cline{2-13}
+
+	& F13
+	&	\TAbcHostnameVerifier
+	\hline
+
+	\multirow{3}{*}{FC4}
+	& F14
+	&\TXTrustManagerGenericConditions
+	\cline{2-13}
+	& F15
+	&\TIntHostnameVerifierGenericCondition
+	\cline{2-13}
+	& F16
+	&	\TAbcHostnameVerifierGenericCondition
+	\hline
+
+
+	\multirow{3}{*}{FC5}
+	& F17
+	&	\TXTrustManagerSpecificConditions
+	\cline{2-13}
+	& F18
+	&	\TIntHostnameVerifierSpecificCondition
+	\cline{2-13}
+	& F19
+	&	\TAbcHostnameVerifierSpecificCondition
+
+\end{tabular}
+\begin{flushleft}
+{\footnotesize \no{} = Flaw Present, \ye{} = Flaw Absent, \pr{} = Flaw partially present, \na = detector does not claim to handle the misuse associated with the flaw, \np= detector claims to handle but did not detect base version of misuse nr =  not yet run; \sonarqubeshort~=~\sonarqube, \snykshort~=~\snyk, \codigashort~=~\codiga, \deepsourceshort~=~\deepsource, \newcodeqlshort~=~\newcodeql, \newcryptoguardshort~=~\cryptoguardupdate, \newcognicryptshort~=~\cognicryptupdate, \newspotbugsshort~=~\spotbugsupdate, \newcoverityshort~=~\coverityupdate, \newqarkshort~=~\qarkupdate, \newshiftleftshort~=~\shiftleftupdate, \newcqversion~=~\codeqlversion, \newlgtmshort~=~\newlgtm.\\
+*Certain seemingly-unrealistic flaws may be seen in/outside a \detector's ``scope'', depending on the perspective; see Discussion for a broader treatment of this caveat.
+}
+\end{flushleft}
+\end{table}

@@ -2,7 +2,14 @@
 \chapter{The MASC Framework}
 \label{chap_framework}
 %--------------------------------------
-
+\begin{figure*}[!ht]
+	\centering
+    \includegraphics[width=0.96\linewidth]{figures/overview.pdf}
+	\vspace{-1.em}
+    \caption{\small A basic overview diagram showing how the MASC Framework was designed}
+    \label{fig:overview}
+	
+\end{figure*}
 %--------------------------------------
 \section{Overview}
 \label{ch2:sec:overview}
@@ -16,6 +23,15 @@ By instantiating mutants by applying the mutation operators to the cases found i
 \subsection{Extended Taxonomy}
 \label{ch2:sec:taxonomy}
 %--------------------------------------
+
+\begin{figure*}[!ht]
+	\centering
+    \includegraphics[width=0.96\linewidth]{figures/taxonomy.pdf}
+	\vspace{-1.em}
+    \caption{\small The orignal derived taxonomy of cryptographic misuses the extended taxnonmy is based on. ($n$) indicates misuse was present across $n$ artifacts.  A \checkmark indicates that the specific misuse case was instantiated with \tool's mutation operators for our evaluation.}
+    \label{fig:taxonomy}
+	
+\end{figure*}
 
 In expanding MASC as a framework it was necessary to update the taxonomy to bring it up to date from when the original taxonomy was created in 2018. Since the taxonomy is serving as expansion rather than a replacement the same methodology was used from its initial creation to extend it. This was done to ensure the taxonomy as a whole was consistent and one whole work rather than a two different components. In order to locate academic and research papers related to Crypto-API misuse, it was first necessary to identify a set of search terms that would adequately narrow the search space. The authors of the original MASC paper had already identified a sufficiently narrowing set of search terms.  Specifically, these terms are shown in Figure .
 

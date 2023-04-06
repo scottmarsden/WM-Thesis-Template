@@ -1,25 +1,25 @@
 
 
-\newcommand{\TsmallCaseParameter}                   {\no & \ye & \ye & \ye & \ye & \nl & \ye & \ye & \ye & \ye & \ye & \no & \nu & \ye & nr & \ye & \ye & \ye & nr & \np & \ye & nr & \ye \\}
-\newcommand{\TvalueInVariable}                      {\ye & \ye & \ye & \ye & \no & \np & \ye & \pr & \pr & \ye & \ye & \ye & \nu & \pr & nr & \ye & \ye & \ye & nr & \np & \ye & nr & \pr \\}
-\newcommand{\TsecureParameterReplaceInsecure}       {\no & \no & \no & \ye & \no & \np & \no & \ye & \ye & \no & \no & \no & \nu & \no & nr & \pr & \no & \no & nr & \np & \no & nr & \ye \\}
-\newcommand{\TinsecureParameterReplaceInsecure}     {\no & \no & \no & \ye & \no & \np & \no & \no & \no & \no & \no & \no & \nu & \no & nr & \ye & \no & \no & nr & \np & \no & nr & \no \\}
-\newcommand{\TstringCaseTransform}                  {\no & \no & \pr & \ye & \no & \np & \pr & \ye & \ye & \pr & \no & \no & \nu & \no & nr & \ye & \no & \ye & nr & \np & \ye & nr & \ye \\}
-\newcommand{\TnoiseReplace}                         {\no & \no & \no & \ye & \no & \np & \no & \no & \no & \no & \no & \no & \nu & \no & nr & \pr & \no & \no & nr & \np & \no & nr & \no \\}
-\newcommand{\TparameterFromMethodChaining}          {\no & \ye & \no & \ye & \no & \np & \no & \ye & \ye & \no & \no & \no & \nu & \no & nr & \no & \no & \no & nr & \np & \no & nr & \ye \\}
-\newcommand{\TdeterministicByteFromCharacterConcat} {\no & \ye & \ye & \ye & \na & \np & \ye & \np & \no & \np & \ye & \no & \nu & \nu & nr & \no & \ye  & \ye & nr & \np & \ye & nr & \np \\}
-\newcommand{\TpredictableByteFromSystemAPI}         {\no & \ye & \ye & \ye & \na & \np & \ye & \np & \no & \np & \ye & \no & \nu & \nu & nr & \no & \ye & \ye & nr & \np & \ye & nr & \np \\}
+\newcommand{\TsmallCaseParameter}                   {\ye & \no & \np & \ye & nr & \ye & \ye & \ye & nr & \np & \ye & \ye \\}
+\newcommand{\TvalueInVariable}                      { \ye & \ye & \np & \pr & nr & \ye & \ye & \ye & nr & \np & \ye & \pr \\}
+\newcommand{\TsecureParameterReplaceInsecure}       {\no & \no & \np & \no & nr & \pr & \no & \no & nr & \np & \no & \ye \\}
+\newcommand{\TinsecureParameterReplaceInsecure}     {\no & \no & \np & \no & nr & \ye & \no & \no & nr & \np & \no & \no \\}
+\newcommand{\TstringCaseTransform}                  {\no & \no & \np & \no & nr & \ye & \no & \ye & nr & \np & \ye & \ye \\}
+\newcommand{\TnoiseReplace}                         {\no & \no & \np & \no & nr & \pr & \no & \no & nr & \np & \no & \no \\}
+\newcommand{\TparameterFromMethodChaining}          { \no & \no & \np & \no & nr & \no & \no & \no & nr & \np & \no & \ye \\}
+\newcommand{\TdeterministicByteFromCharacterConcat} {\ye & \no & \np & \np & nr & \no & \ye & \ye & nr & \np & \ye & \np \\}
+\newcommand{\TpredictableByteFromSystemAPI}         {\ye & \no & \np & \np & nr & \no & \ye & \ye & nr & \np & \ye & \np \\}
 
-\newcommand{\TXExtendedTrustManager}                {\no & \na & \ye & \ye & \pr & \pr & \ye & \np & \np & \np & \ye & \ye & \nu & \ye & nr & \no & \na & \ye & nr & \pr & \ye & nr & \np \\}
-\newcommand{\TXTrustManagerSubType}                 {\no & \na & \ye & \ye & \pr & \pr & \ye & \np & \np & \np & \no & \ye & \nu & \no & nr & \no & \na & \ye & nr & \pr & \ye & nr & \np \\}
-\newcommand{\TIntHostnameVerifier}                  {\no & \na & \ye & \ye & \ye & \na & \ye & \np & \np & \np & \no & \ye & \nu & nr & nr & \no & \na & \ye & nr & \na & \ye & nr & \np\\}
-\newcommand{\TAbcHostnameVerifier}                  {\no & \na & \ye & \ye & \ye & \na & \ye & \np & \np & \np & \no & \no & \nu & \pr & nr & \no & \na & \ye & nr & \na & \ye & nr & \np \\}
+\newcommand{\TXExtendedTrustManager}                {\ye & \ye & \np & \ye & nr & \no & \na & \ye & nr & \pr & \ye & \np \\}
+\newcommand{\TXTrustManagerSubType}                 {\no & \ye & \np & \no & nr & \no & \na & \ye & nr & \pr & \ye & \np \\}
+\newcommand{\TIntHostnameVerifier}                  {\no & \ye & \np & nr & nr & \no & \na & \ye & nr & \na & \ye & \np\\}
+\newcommand{\TAbcHostnameVerifier}                  {\no & \no & \np & \pr & nr & \no & \na & \ye & nr & \na & \ye & \np \\}
 
-\newcommand{\TXTrustManagerGenericConditions}       {\no & \na & \ye & \ye & \ye & \no & \ye & \np & \np & \np & \ye & \ye & \nu & \no & nr & \no & \pr & \ye & nr & \no & \ye & nr & \np \\}
-\newcommand{\TIntHostnameVerifierGenericCondition}  {\no & \na & \ye & \ye & \ye & \na & \ye & \np & \np & nr & nr & nr & nr & nr & nr & \no & \na & \ye & nr & \na & \ye & nr & \np \\}
-\newcommand{\TAbcHostnameVerifierGenericCondition}  {\no & \na & \ye & \ye & \ye & \na & \ye & \np & \np & \np & \no & \no & \nu & \no & nr & \no & \na & \ye & nr & \na & \ye & nr & \np \\}
+\newcommand{\TXTrustManagerGenericConditions}       {\ye & \ye & \np & \no & nr & \no & \pr & \ye & nr & \no & \ye & \np \\}
+\newcommand{\TIntHostnameVerifierGenericCondition}  {nr & nr & nr & nr & nr & \no & \na & \ye & nr & \na & \ye & \np \\}
+\newcommand{\TAbcHostnameVerifierGenericCondition}  {\no & \no & \np & \no & nr & \no & \na & \ye & nr & \na & \ye & \np \\}
 
 
-\newcommand{\TXTrustManagerSpecificConditions}      {\no & \na & \no & \no & \ye & \no & \no & \np & \np & \np & \no & \ye & \nu & \no & nr & \no & \pr & \ye & nr & \no & \ye & nr & \np \\}
-\newcommand{\TIntHostnameVerifierSpecificCondition} {\no & \na & \ye & \no & \ye & \na & \ye & \np & \np & \np & \no & \no	& \nu & nr & nr & \no & \na & \ye & nr	& \na & \ye	& nr & \np\\}
-\newcommand{\TAbcHostnameVerifierSpecificCondition} {\no & \na & \ye & \ye & \ye & \na & \ye & \np & \np & \np & \no & \no & \nu & \no & nr & \no & \na & \ye & nr & \na & \ye & nr & \np \\}
+\newcommand{\TXTrustManagerSpecificConditions}      {\no & \ye & \np & \no & nr & \no & \pr & \ye & nr & \no & \ye & \np \\}
+\newcommand{\TIntHostnameVerifierSpecificCondition} {\no & \no & \np & nr & nr & \no & \na & \ye & nr & \na & \ye & \np \\}
+\newcommand{\TAbcHostnameVerifierSpecificCondition} {\no & \no & \np & \no & nr & \no & \na & \ye & nr & \na & \ye & \np \\}

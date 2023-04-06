@@ -150,8 +150,8 @@
 \include{Chapter-Evaluation}
 \include{Chapter-Results}
 \include{Chapter-Conclusion}
-%\bibliographystyle{wmbib}
-%\bibliography{references.bib}
+%bibliographystyle{wmbib}
+%bibliography{extracted.bib}
 
 % Start calling the chapters Appendices
 \appendix
@@ -161,10 +161,11 @@
 
 
 %--List of references not actually cited in the document.
-%-- \nocite{*}
+\nocite{*}
 
 %--Include the bibliography
-
+\makeThesisBib{references}
+%\bibliographystyle{IEEEtran}
 %\bibliography{references}
 %% I did not include the following in my dissertation, so I have no knowledge
 %% of their formatting compliance. -- Ruth

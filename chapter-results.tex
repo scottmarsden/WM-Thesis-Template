@@ -7,8 +7,11 @@
 \subsection{Analyzing Flaws}
 \label{ch5:sec:flaws}
 %--------------------------------------
-%\input{tables/tbl_flaws}
-%\input{tables/tbl_flaw_tools}
+
+\begin{sloppypar}
+\input{tables/tbl_flaws.tex}
+\input{tables/new_tbl_flaw_tools.tex}
+\end{sloppypar}
 
 
 The new analysis of the 13 crypto dectors results in [work is currently ongoing] new flaws being found. Additionaly the analysis found [insert number of flaws] in the 5 new crypto-dectors that were located in the orignal flaws found by MASC. For this work I included an updated version of the flaw classes with the newly located flaws and present an updated table that maps the flaws to the new versions of the crypto-detectors and new crypto-detectors. Similarly, to the original work I found that the majority of total flaws found could be attributed to mutations [insert values] while [insert value] could be found by just using the base case versions of the misuse. This continues to prove that mutation testing provides better results for finding flaws than just using the base cases alone to determine flaws.
@@ -32,5 +35,7 @@ FC5: Insufficient Analysis of Context-specific Conditionsin Extensible Crypto-AP
 \subsection{Exhaustive Results}
 \label{ch5:sec:discussion}
 %--------------------------------------
+
+\input{tables/tbl_mutations_overall.tex}
 
 So far results have been found for the the 5 new operators. However, results for this section are still ongoing. The apps are currently being run on the original crypto-dectors. Results will be reported by the final version.
