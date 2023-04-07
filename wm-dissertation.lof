@@ -1,9 +1,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \small A basic overview diagram showing how the MASC Framework was designed\relax }}{9}{figure.caption.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \small The orignal derived taxonomy of cryptographic misuses the extended taxnonmy is based on. ($n$) indicates misuse was present across $n$ artifacts. A \text {$\mathsurround \z@ \mathchar "458$}indicates that the specific misuse case was instantiated with {\tt MASC}\xspace 's mutation operators for our evaluation.\relax }}{11}{figure.caption.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \small A basic overview diagram showing how the MASC Framework was designed\relax }}{10}{figure.caption.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \small The orignal derived taxonomy of cryptographic misuses the extended taxnonmy is based on. ($n$) indicates misuse was present across $n$ artifacts. A \text {$\mathsurround \z@ \mathchar "458$}indicates that the specific misuse case was instantiated with {\tt MASC}\xspace 's mutation operators for our evaluation.\relax }}{12}{figure.caption.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \small A high level diagram showing the architecture design of MASC. This further demonstrates how each component of MASC is designed and how to run the framework\relax }}{20}{figure.caption.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \small A high level diagram showing the architecture design of MASC. This further demonstrates how each component of MASC is designed and how to run the framework\relax }}{21}{figure.caption.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

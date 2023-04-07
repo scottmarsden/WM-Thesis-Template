@@ -1,0 +1,296 @@
+\begin{thebibliography}{10}
+
+\bibitem{Afrose_Rahaman_Yao_2019}
+{\sc Sharmin Afrose, Sazzadur Rahaman, and Danfeng Yao}.
+\newblock Cryptoapi-bench: A comprehensive benchmark on java cryptographic api
+  misuses.
+\newblock In {\em 2019 IEEE Cybersecurity Development (SecDev)}, page 49–61,
+  Sep 2019.
+
+\bibitem{Afrose_Xiao_Rahaman_Miller_Yao_2022}
+{\sc Sharmin Afrose, Ya~Xiao, Sazzadur Rahaman, Barton Miller, and
+  Danfeng~Daphne Yao}.
+\newblock Evaluation of static vulnerability detection tools with java
+  cryptographic api benchmarks.
+\newblock {\em IEEE Transactions on Software Engineering}, page 1–1, 2022.
+
+\bibitem{Amann_Nadi_Nguyen_Nguyen_Mezini_2016}
+{\sc Sven Amann, Sarah Nadi, Hoan~A. Nguyen, Tien~N. Nguyen, and Mira Mezini}.
+\newblock Mubench: A benchmark for api-misuse detectors.
+\newblock In {\em 2016 IEEE/ACM 13th Working Conference on Mining Software
+  Repositories (MSR)}, page 464–467, May 2016.
+
+\bibitem{codeguru}
+Amazon code guru.
+\newblock \url{https://aws.amazon.com/codeguru/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Ami_2022}
+{\sc Amit~Seal Ami, Nathan Cooper, Kaushal Kafle, Kevin Moran, Denys
+  Poshyvanyk, and Adwait Nadkarni}.
+\newblock Why crypto-detectors fail: A systematic evaluation of cryptographic
+  misuse detection techniques.
+\newblock In {\em 2022 {IEEE} Symposium on Security and Privacy ({SP})}.
+  {IEEE}, may 2022.
+
+\bibitem{Bodden_2018}
+{\sc Eric Bodden}.
+\newblock The secret sauce in efficient and precise static analysis: the beauty
+  of distributive, summary-based static analyses (and how to master them).
+\newblock In {\em Companion Proceedings for the ISSTA/ECOOP 2018 Workshops},
+  page 85–93, Amsterdam Netherlands, Jul 2018. ACM.
+
+\bibitem{Braga_Dahab_Antunes_Laranjeiro_Vieira_2019}
+{\sc Alexandre Braga, Ricardo Dahab, Nuno Antunes, Nuno Laranjeiro, and Marco
+  Vieira}.
+\newblock Understanding how to use static analysis tools for detecting
+  cryptography misuse in software.
+\newblock {\em IEEE Transactions on Reliability}, 68(4):1384–1403, Dec 2019.
+
+\bibitem{Choudhari_Guilley_Karray}
+{\sc Amit Choudhari, Sylvain Guilley, and Khaled Karray}.
+\newblock Cryscanner: Finding cryptographic libraries misuse.
+
+\bibitem{codiga}
+Sast: Owasp and cwe.
+\newblock
+  \url{https://www.codiga.io/static-code-analysis/sast-owasp10-sans25/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{cognicrypteclipse}
+{{CogniCrypt}} - {{Secure Integration}} of {{Cryptographic Software}} |
+  {{CogniCrypt}}.
+\newblock \url{https://www.eclipse.org/cognicrypt/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{cryptoguard_nsf_ttp}
+{{NSF Award Search}}: {{Award}}\#1929701 - {{SaTC}}: {{TTP}}: {{Medium}}:
+  {{Collaborative}}: {{Deployment}}-quality and {{Accessible Solutions}} for
+  {{Cryptography Code Development}}.
+\newblock
+  \url{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1929701&HistoricalAwards=false},
+  September 2019.
+\newblock Accessed Mar, 2023.
+
+\bibitem{cryptoguard_oracle}
+{Oracle - Industrial Experience of Finding Cryptographic Vulnerabilities in
+  Large-scale Codebases}.
+\newblock
+  \url{https://labs.oracle.com/pls/apex/f?p=94065:40150:0::::P40150_PUBLICATION_ID:6629},
+  July 2020.
+\newblock Accessed Mar, 2023.
+
+\bibitem{deepsource}
+Secure every commit without slowing development.
+\newblock \url{https://deepsource.io/platform/sast/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Emanuelsson_Nilsson_2008}
+{\sc Pär Emanuelsson and Ulf Nilsson}.
+\newblock A comparative study of industrial static analysis tools.
+\newblock {\em Electronic Notes in Theoretical Computer Science}, 217:5–21,
+  Jul 2008.
+
+\bibitem{Feichtner_2019}
+{\sc Johannes Feichtner}.
+\newblock A comparative study of misapplied crypto in android and ios
+  applications.
+\newblock page 96–108, Jul 2019.
+
+\bibitem{Gao_Kong_Li_Bissyandé_Klein_2019}
+{\sc Jun Gao, Pingfan Kong, Li~Li, Tegawendé~F. Bissyandé, and Jacques
+  Klein}.
+\newblock Negative results on mining crypto-api usage rules in android apps.
+\newblock In {\em 2019 IEEE/ACM 16th International Conference on Mining
+  Software Repositories (MSR)}, page 388–398, May 2019.
+
+\bibitem{github-search}
+{GitHub - Where software is built | Advanced search }.
+\newblock \url{https://github.com/search/advanced}.
+\newblock Accessed Feb, 2023.
+
+\bibitem{github_security_lab}
+{{GitHub Security Lab}}.
+\newblock \url{https://securitylab.github.com/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{github_third_party_code_scanners}
+{{Announcing third-party code scanning tools: static analysis \& developer
+  security training - The GitHub Blog}}.
+\newblock
+  \url{https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/},
+  October 2020.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Hazhirpasand_Ghafari_Nierstrasz_2020}
+{\sc Mohammadreza Hazhirpasand, Mohammad Ghafari, and Oscar Nierstrasz}.
+\newblock Java cryptography uses in the wild.
+\newblock (arXiv:2009.01101), Sep 2020.
+\newblock arXiv:2009.01101 [cs].
+
+\bibitem{Jovanovic_Kruegel_Kirda_2006}
+{\sc N.~Jovanovic, C.~Kruegel, and E.~Kirda}.
+\newblock Pixy: a static analysis tool for detecting web application
+  vulnerabilities.
+\newblock In {\em 2006 IEEE Symposium on Security and Privacy (S&P’06)}, page
+  6 pp. – 263, May 2006.
+
+\bibitem{Krüger_Ali_Bodden_2020}
+{\sc Stefan Krüger, Karim Ali, and Eric Bodden}.
+\newblock Cognicrypt gen  : generating code for the secure usage of crypto
+  apis.
+\newblock In {\em Proceedings of the 18th ACM/IEEE International Symposium on
+  Code Generation and Optimization}, page 185–198, San Diego CA USA, Feb
+  2020. ACM.
+
+\bibitem{Landman_Serebrenik_Vinju_2017}
+{\sc Davy Landman, Alexander Serebrenik, and Jurgen~J. Vinju}.
+\newblock Challenges for static analysis of java reflection - literature review
+  and empirical study.
+\newblock In {\em 2017 IEEE/ACM 39th International Conference on Software
+  Engineering (ICSE)}, page 507–518, May 2017.
+
+\bibitem{lgtm}
+{{LGTM}} - {{Continuous}} security analysis.
+\newblock \url{https://lgtm.com/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Li_Bissyandé_Papadakis_Rasthofer_Bartel_Octeau_Klein_Traon_2017}
+{\sc Li~Li, Tegawendé~F. Bissyandé, Mike Papadakis, Siegfried Rasthofer,
+  Alexandre Bartel, Damien Octeau, Jacques Klein, and Le~Traon}.
+\newblock Static analysis of android apps: A systematic literature review.
+\newblock {\em Information and Software Technology}, 88:67–95, Aug 2017.
+
+\bibitem{qark_linkedin_engineering_team}
+{Introducing QARK: An Open Source Tool to Improve Android Application Security
+  | LinkedIn Engineering}.
+\newblock \url{https://engineering.linkedin.com/blog/2015/08/introducing-qark},
+  August 2015.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Livshits_Lam}
+{\sc V~Benjamin Livshits and Monica~S Lam}.
+\newblock Finding security vulnerabilities in java applications with static
+  analysis.
+
+\bibitem{Majumdar_Monsifrot_Thomborson_2006}
+{\sc Anirban Majumdar, Antoine Monsifrot, and Clark Thomborson}.
+\newblock On evaluating obfuscatory strength of alias-based transforms using
+  static analysis.
+\newblock In {\em 2006 International Conference on Advanced Computing and
+  Communications}, page 605–610, Dec 2006.
+
+\bibitem{Newbury_Ali_Craik_2021}
+{\sc Kristen Newbury, Karim Ali, and Andrew Craik}.
+\newblock Hotfixing misuses of crypto apis in java programs.
+\newblock 2021.
+
+\bibitem{Oltrogge_Huaman_Amft_Acar_Backes_Fahl}
+{\sc Marten Oltrogge, Nicolas Huaman, Sabrina Amft, Yasemin Acar, Michael
+  Backes, and Sascha Fahl}.
+\newblock Why eve and mallory still love android: Revisiting tls (in)security
+  in android applications.
+
+\bibitem{Park_Lee_Ryu_2022}
+{\sc Jihyeok Park, Hongki Lee, and Sukyoung Ryu}.
+\newblock A survey of parametric static analysis.
+\newblock {\em ACM Computing Surveys}, 54(7):1–37, Sep 2022.
+
+\bibitem{Possemato_Fratantonio}
+{\sc Andrea Possemato and Yanick Fratantonio}.
+\newblock Towards https everywhere on android: We are not there yet.
+
+\bibitem{Rodrigues_Braga_Dahab_2020}
+{\sc Gustavo Eloi de~P. Rodrigues, Alexandre~M. Braga, and Ricardo Dahab}.
+\newblock Using graph embeddings and machine learning to detect cryptography
+  misuse in source code.
+\newblock In {\em 2020 19th IEEE International Conference on Machine Learning
+  and Applications (ICMLA)}, page 1059–1066, Dec 2020.
+
+\bibitem{Schlichtig_Wickert_Krüger_Bodden_Mezini_2022}
+{\sc Michael Schlichtig, Anna-Katharina Wickert, Stefan Krüger, Eric Bodden,
+  and Mira Mezini}.
+\newblock Cambench -- cryptographic api misuse detection tool benchmark suite.
+\newblock (arXiv:2204.06447), Apr 2022.
+\newblock arXiv:2204.06447 [cs].
+
+\bibitem{Shahriar_Zulkernine_2010}
+{\sc Hossain Shahriar and Mohammad Zulkernine}.
+\newblock Classification of static analysis-based buffer overflow detectors.
+\newblock In {\em 2010 Fourth International Conference on Secure Software
+  Integration and Reliability Improvement Companion}, page 94–101, Jun 2010.
+
+\bibitem{shiftleft}
+{{ShiftLeft Scan}}.
+\newblock \url{https://shiftleft.io/scan}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Singleton_Zhao_Song_Siy_2020}
+{\sc Larry Singleton, Rui Zhao, Myoungkyu Song, and Harvey Siy}.
+\newblock Cryptotutor: Teaching secure coding practices through misuse pattern
+  detection.
+\newblock In {\em Proceedings of the 21st Annual Conference on Information
+  Technology Education}, page 403–408, Virtual Event USA, Oct 2020. ACM.
+
+\bibitem{snyk}
+Developer loved, security trusted.
+\newblock \url{https://snyk.io/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{spotbugs_findsecbugs}
+Find {{Security Bugs}}.
+\newblock \url{https://find-sec-bugs.github.io/}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{sonarqube}
+Code {{Quality}} and {{Security}} | {{SonarQube}}.
+\newblock \url{https://www.sonarqube.org/}.
+\newblock Accessed September, 2022.
+
+\bibitem{CoveritySASTSoftware}
+Coverity {{SAST Software}} | {{Synopsys}}.
+\newblock
+  \url{https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html}.
+\newblock Accessed Mar, 2023.
+
+\bibitem{Wickert_Baumgärtner_Breitfelder_Mezini_2021}
+{\sc Anna-Katharina Wickert, Lars Baumgärtner, Florian Breitfelder, and Mira
+  Mezini}.
+\newblock Python crypto misuses in the wild.
+\newblock In {\em Proceedings of the 15th ACM / IEEE International Symposium on
+  Empirical Software Engineering and Measurement (ESEM)}, page 1–6, Oct 2021.
+\newblock arXiv:2109.01109 [cs].
+
+\bibitem{Wickert_Reif_Eichberg_Dodhy_Mezini_2019}
+{\sc Anna-Katharina Wickert, Michael Reif, Michael Eichberg, Anam Dodhy, and
+  Mira Mezini}.
+\newblock A dataset of parametric cryptographic misuses.
+\newblock In {\em 2019 IEEE/ACM 16th International Conference on Mining
+  Software Repositories (MSR)}, page 96–100, May 2019.
+
+\bibitem{Xing_Cheng_Dietl_2021}
+{\sc Weitian Xing, Yuanhui Cheng, and Werner Dietl}.
+\newblock Ensuring correct cryptographic algorithm and provider usage at
+  compile time.
+\newblock In {\em Proceedings of the 23rd ACM International Workshop on Formal
+  Techniques for Java-like Programs}, page 43–50, Virtual Denmark, Jul 2021.
+  ACM.
+
+\bibitem{Yan_Xu_Rountev}
+{\sc Dacong Yan, Guoqing Xu, and Atanas Rountev}.
+\newblock Demand-driven context-sensitive alias analysis for java.
+
+\bibitem{Zhang_Chen_Diao_Guo_Weng_Zhang}
+{\sc Li~Zhang, Jiongyi Chen, Wenrui Diao, Shanqing Guo, Jian Weng, and Kehuan
+  Zhang}.
+\newblock Cryptorex: Large-scale analysis of cryptographic misuse in iot
+  devices.
+
+\bibitem{Zhang_Kabir_Xiao_Yao_Meng_2023}
+{\sc Ying Zhang, Md~Mahir~Asef Kabir, Ya~Xiao, Danfeng Yao, and Na~Meng}.
+\newblock Automatic detection of java cryptographic api misuses: Are we there
+  yet?
+\newblock {\em IEEE Transactions on Software Engineering}, 49(1):288–303, Jan
+  2023.
+
+\end{thebibliography}

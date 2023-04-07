@@ -163,6 +163,7 @@
 	{\large \tableofcontents }
 %%--------------------------------------------
 %%-- acknowledgements
+  \newpage
 	\makeacknowledgepage
 %%--------------------------------------------
 %%-- dedication page
@@ -218,7 +219,7 @@
         \hspace{.1in}  \\
         \hspace{.1in}  \\
         \hspace{.1in}  \\ % 4 lines between prior degrees and purpose statement -- Ruth
-    {A Dissertation presented to the Graduate Faculty\\
+    {A Thesis presented to the Graduate Faculty\\
          of the College of William \& Mary in Candidacy for the Degree of\\
          Master of Science}\\
         \hspace{.1in}  \\
@@ -309,7 +310,7 @@
        {\large \hspace{.1in} } \\
        {\large \hspace{.1in} } \\
        {\large \hspace{.1in} } \\ % 3 lines between title and statement -- Ruth
-    {\large This Dissertation is submitted in partial fulfillment of \\
+    {\large This Thesis is submitted in partial fulfillment of \\
          the requirements for the degree of}\\
         \hspace{.1in}  \\ % 1 lines between statements
     {\large Master's of Science in Computer Science}\\
@@ -504,7 +505,7 @@ Protocol number(s):  PHSC-\#\#\#\#-\#\#-\#\#-\#\#\#\#\#-protocol\\
      \begin{center}
      \large \thesis@authorx \\
      Department of Computer Science \\
-     The College of William and Mary in Virginia \\
+     The College of William \& Mary in Virginia \\
      Advisor: \ThesisAdvisor  \\
      \thesis@title
      \end{center}
