@@ -164,6 +164,7 @@
 %%--------------------------------------------
 %%-- acknowledgements
   \newpage
+  \setcounter{page}{3}
 	\makeacknowledgepage
 %%--------------------------------------------
 %%-- dedication page
@@ -220,7 +221,7 @@
         \hspace{.1in}  \\
         \hspace{.1in}  \\ % 4 lines between prior degrees and purpose statement -- Ruth
     {A Thesis presented to the Graduate Faculty\\
-         of the College of William \& Mary in Candidacy for the Degree of\\
+         of The College of William \& Mary in Candidacy for the Degree of\\
          Master of Science}\\
         \hspace{.1in}  \\
         \hspace{.1in}  \\
@@ -235,7 +236,7 @@
         \hspace{.1in}  \\
         \hspace{.1in}  \\
         \hspace{.1in}  \\ % 5 lines between department and college -- Ruth
-    {College of William \& Mary\\ 
+    {The College of William \& Mary\\ 
        \thesis@month\ \thesis@year}
     }
  \end{center}\end{singlespace}
