@@ -71,6 +71,41 @@ Once again like the original design of MASC the conditions are meant to mimic ho
 
 However, I did try to further capture the T3 developer compared to the original work. In the original work the T3 developer was intially designed to be somewhat conservative to ensure that cases were as close to reality as possible. The original developer were aware that they could go further but they wanted to be more conservative than some real life examples they had seen. For this extension it was discovered that there are cases far more complex and malicious than was originally realized. So in the expansion of MASC some operators were added to include more complex T3 cases.
 
+%--------------------------------------
+\section{Related Works}
+\label{ch1:sec:relatedworks}
+%--------------------------------------
+
+Security researchers have recently shown significant interest in the external validation of static analysis tools
+ ~\cite{QWR18,droidbench,iccbench,PBW18,bkm+18,}. %
+Particularly, there is a growing realization that static analysis security tools are sound in theory, but {\em soundy in practice}, \ie consisting of a core set of sound decisions, as well as certain strategic unsound choices made for practical reasons such as performance or precision~\cite{lss+15}.
+
+Sound{\em y} tools are desirable for security analysis as their sound core ensures sufficient detection of targeted behavior, while also being {\em practical}, \ie without incurring too many false alarms.
+
+However, given the lack of oversight and evaluation they have faced so far, {\em \detectors} may violate this basic assumption behind sound{\em i}ness and may in fact be {\em unsound}, \ie have fundamental flaws that prevent them from detecting even straightforward instances of crypto-API misuse observed in apps.
+This intuition drives our approach for systematically evaluating \detectors, leading to novel contributions that deviate from related work.
+
+To the best of our knowledge, \tool is the first framework to use mutation testing, combined with a large-scale data-driven taxonomy of crypto-API misuse, for comprehensively evaluating the detection ability of \detectors to find design/implementation flaws.
+However, in a more general sense, Bonett et al.~\cite{bkm+18} were the first to leverage the intuition behind mutation testing for evaluating Java/Android security tools, and developed the $\mu$SE framework for evaluating data leaks detectors (\eg FlowDroid~\cite{arf+14} and Argus~\cite{wror14}).
+\tool significantly deviates from $\mu$SE in terms of its design focus, in order to address the unique challenges imposed by the problem domain of crypto-misuse detection. Particularly, \muse assumes that for finding flaws, it is sufficient to {\em manually} define "a" security operator and strategically place it at hard-to-reach locations in source code.
+This assumption does not hold when evaluating \detectors as it is improbable to cast cryptographic misuse as a single mutation, given that cryptographic misuse cases are diverse, and developers may express the same type of misuse in different ways.
+For example, consider three well-known types of misuse that would require unique mutation operators: {\sf (1)} using \DES for encryption (operator inserts prohibited parameter names, \eg\ \DES), {\sf (2)} trusting all SSL/TLS certificates (operator creates a malformed \trustManager), and {\sf (3)} using a predictable initialization vector (IV) (operator derives predictable values for the IV).
+In fact, developers may even express the same misuse in different ways, necessitating unique operators to express such distinct {\em instances}, \eg the \DES misuse expressed differently in Listing~\ref{lst:des-example} and Listing~\ref{lst:des-misuse-2}.
+Thus, instead of adopting \muse's single-operator approach, \tool designs general usage-based mutation operators that can expressively instantiate misuses from our taxonomy of misuses.
+In a similar manner, \tools contextualized mutation abstractions (\ie for evaluating \detectors) distinguish it from other systems that perform vulnerability injection for C programs~\cite{dhk+16}, discover API misuse using mutation~\cite{WLW+19,GKL+19}, or evaluate static analysis tools for precision using handcrafted benchmarks or user-defined policies~\cite{QWR18,PBW18}.
+
+
+Finally, the goal behind \tool is to assist the designers of \detectors~\cite{fhm+12,ebfk13,cognicrypteclipse,knr+17,KSA+18,deepsource,snyk,sonarqube,codeguru,codiga} in identifying design and implementation gaps in their tools, and hence, \tool is complementary to the large body of work in this area.
+Particularly, prior work provides rule-sets or benchmarks~\cite{BDA+17,BDA+19} consisting of a limited set of cryptographic ``bad practices''~\cite{BD16}, or taxonomies of smaller subsets (\eg SSL/TLS misuse taxonomy by Vasan et al.~\cite{NVK16}).
+However, we believe that the new extended taxonomy is the most systematically-driven and comprehensive taxonomy of {\em crypto-API} misuse, that is further expanded upon into numerous unique misuse instances through \tools operators.
+Thus, relative to prior handcrafted benchmarks, \tool can thoroughly test detectors with a far more comprehensive set of crypto-misuse instances.
+
+In addition to the previous work while working on the extension I also looked at other tools trying to accomplish similar goals to MASC such as \cite{Afrose_Xiao_Rahaman_Miller_Yao_2022} and \cite{Schlichtig_Wickert_Krüger_Bodden_Mezini_2022}. I compared what we have done to what these tools are trying to do to ensure that MASC is still state of the art and is keeping up to date with other tools. MASC is still capable of doing more with mutation testing and its operators than these other tools. I still believe MASC is the state of the art tool for identifying flaws in Crypto-Detectors especially after the extension of work.
+
+
+
+
+
 
 %--------------------------------------
 \section{Bibliographical Notes}

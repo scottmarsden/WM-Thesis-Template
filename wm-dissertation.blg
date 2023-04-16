@@ -9,8 +9,10 @@ A level-1 auxiliary file: Chapter-Results.aux
 A level-1 auxiliary file: Chapter-Conclusion.aux
 The style file: wmbib.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "FBX+17"
+Warning--I didn't find a database entry for "knr+17"
+Warning--I didn't find a database entry for "Schlichtig_Wickert_Krüger_Bodden_Mezini_2022"
 Warning--I didn't find a database entry for "owasp:mislabel"
+Warning--to sort, need author or key in iot-bill
 Warning--empty journal in Choudhari_Guilley_Karray
 Warning--empty year in Choudhari_Guilley_Karray
 Warning--empty booktitle in Feichtner_2019
@@ -29,45 +31,45 @@ Warning--empty journal in Yan_Xu_Rountev
 Warning--empty year in Yan_Xu_Rountev
 Warning--empty journal in Zhang_Chen_Diao_Guo_Weng_Zhang
 Warning--empty year in Zhang_Chen_Diao_Guo_Weng_Zhang
-You've used 47 entries,
+You've used 115 entries,
             2136 wiz_defined-function locations,
-            774 strings with 14139 characters,
-and the built_in function-call counts, 16030 in all, are:
-= -- 1567
-> -- 682
-< -- 16
-+ -- 282
-- -- 230
-* -- 958
-:= -- 2267
-add.period$ -- 143
-call.type$ -- 47
-change.case$ -- 272
+            1133 strings with 30437 characters,
+and the built_in function-call counts, 38957 in all, are:
+= -- 3823
+> -- 1745
+< -- 35
++ -- 720
+- -- 599
+* -- 2533
+:= -- 5636
+add.period$ -- 365
+call.type$ -- 115
+change.case$ -- 690
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 804
-empty$ -- 1298
-format.name$ -- 230
-if$ -- 3632
+cite$ -- 134
+duplicate$ -- 1708
+empty$ -- 3236
+format.name$ -- 599
+if$ -- 8703
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 31
-newline$ -- 235
-num.names$ -- 62
-pop$ -- 420
+int.to.str$ -- 115
+missing$ -- 67
+newline$ -- 577
+num.names$ -- 138
+pop$ -- 1006
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 575
 quote$ -- 0
-skip$ -- 701
+skip$ -- 1392
 stack$ -- 0
-substring$ -- 623
-swap$ -- 362
-text.length$ -- 16
+substring$ -- 1722
+swap$ -- 658
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 188
-warning$ -- 18
-while$ -- 83
-width$ -- 49
-write$ -- 476
-(There were 20 warnings)
+type$ -- 458
+warning$ -- 19
+while$ -- 226
+width$ -- 118
+write$ -- 1209
+(There were 22 warnings)
