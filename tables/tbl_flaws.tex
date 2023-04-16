@@ -3,6 +3,7 @@
 	\scriptsize
     \caption{\small Descriptions of Flaws discovered by Analyzing \detectors.}
     \label{tbl:flaws}
+    \noindent\makebox[\textwidth]{
     \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.22\textwidth}|X}
     \hline
     \textbf{ID} & \textbf{Flaw Name} (\textbf{Operator}) & \textbf{Description of Flaws} \\\hline
@@ -109,7 +110,7 @@
     \eg
     \inline{if(true || session.getCipherSuite().length()>=0) return true; return false;}
     \\\hline
-    \end{tabularx}
+    \end{tabularx}}
 \begin{flushleft}
 {
 + flaws were observed for mulitple API misuse cases\\ 

@@ -29,28 +29,22 @@ MASC is still designed to help find flaws in crypto-detectors and still cannot g
 \label{ch6:sec:discussion}
 %--------------------------------------
 
-1. Security-centric Evaluation Design
-
+\textbf{Security-centric Evaluation Design:}
 MASC still places a heavy focus on security centric design. From the perspective of this framework it is believed that security should come first no matter how unlikely or evasive a case may be. This is part of why some of the new operators were designed to create more evasive cases. This idea still clashes with the idea that designers of tools look more into a technique-centric perspective. Many of these tools are not designed with a threat model in mind or directly from a security prespective. In fact many of the tools analyze best coding practices in addition to looking for security misuses. This leads to a gap between what is expected of a tool that claims it can perform security checks.
 
-2. What is scope for Technique-centric Design
-
+\textbf{What is scope for Technique-centric Design:}
 There is still an ongoing discussion on the space on what the scope should be. Should there be more of a focus placed on what is most common and uncommmon or should it be on what can easily be computed statically vs cannot easily be computed. Even from a security prespective this is challenge since common misuses would be exptected to be caught, however, new misuses pose a bigger threat due to the lack of awareness of the looming threat. Optimially most tools would like to cover all possible cases but since this is not feasible the debate is what is most important and what should be expected on crypto-detectors.
 
-3. The Need to Strengthen Crypto-Detectors
-
+\textbf{The Need to Strengthen Crypto-Detectors:}
 Many detectors make claims with the assurance that they can detect certain misuses. When tested many of these claims are proven to still fall short of expectations. If crypto-detectors claim to be able to secure your code it is important that they actually can. This means detecting uncommmon cases and being held accountable for falling short. MASC has shown that it is possible to find gaps in crypto-detectors and help them improve but they are still a long way off from being able to detect hard to statically compute misuses cases. This leads to the question of should crypto-detectors be able to make the claims they do to secure your code?
 
-4. Shifting toward security centric design
-
+\textbf{Shifting toward security centric design:}
 The original work showed that there is interest in developers to make tools more secure. This was something they strived for and it was proven that some of the tools that were evaluated did improve since the first paper. This demonstrates that not only did the express interest they demonstrated interest. Even in the new tools that were evaluated when issues were reported to them they were eager to make a fix to improve their tool. Many developers have expectations that these tools help make their code secure and a lot of times are not aware of common misuses. The further these tools can expand with security centric design in mind the more developers can expect to rely on them.
 
-5. Pushing toward SARIF
-
+\textbf{Pushing toward SARIF:}
 As mentioned SARIF is a relatively new SAST output format. Some crypto-detector designers have been reached out to and expressed interest in being able to produce this format for their tool. MASC integrated this in hopes of helping to encourage more crypto-dectector designers to look into this format. If there is a standard output not only does it make it easier to evaluate how well tool perform it also allows for new tools to be produced to help users evaluate their applications. Having a standard output as an expectation can lead to easier evaluation and can help create a way to fully automize the evaluation of crypto-detector. This would help users be able to easily know how reliable any tool is before they use it. In addition if this was a standard output this would also allow tools to more easily report all misuses found. As mentioned in a prior section some crypto-detectors such as Amazon Code Guru do not provide a full report for their analysis. This is likely due to UI limitations since the whole codebase is still scanned. Having an output in the style of SARIF can help provide a full report to the user since it likely would not have to be directly consumed by the user, it would be parsed and display the output that way. 
 
-6. The Need for constant evaluation
-
+\textbf{The Need for constant evaluation:}
 As shown in the reevaluation of the original crypto-detectors some bugs or flaws have the potential to reappear in future versions of a tool. Due to the ongoing iteration of crypto-detectors it is important for them to be reevaluated. While obviously an evaluation would be necessary when a new misuse appears reevaluating the old misuses is equally as important. Bugs have a tendency to reappear while refactoring and making changes and as found the same thing goes for flaws. Having a constant evaluation will help ensure that once a flaw is found and eliminated that it stays that way.
 
 

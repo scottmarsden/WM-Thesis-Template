@@ -6,6 +6,7 @@
 \contentsline {section}{\numberline {1.1}Overview}{3}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Motivation and Background}{5}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Threat Model}{7}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Bibliographical Notes}{9}{section.1.2}%
 \contentsline {chapter}{\numberline {2}The MASC Framework}{10}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Overview}{10}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Extended Taxonomy}{12}{subsection.2.1.1}%
@@ -24,6 +25,6 @@
 \contentsline {section}{\numberline {6.1}Limitations}{41}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Discussion}{43}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Lessons Learned}{45}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Conclusion}{46}{section.6.4}%
+\contentsline {section}{\numberline {6.4}Conclusion}{45}{section.6.4}%
 \contentsline {chapter}{\numberline {A}Appendix A}{47}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Code Snippets}{47}{section.A.1}%
