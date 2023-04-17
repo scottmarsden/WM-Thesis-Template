@@ -141,12 +141,12 @@
     \inline{javax.crypto.Cipher cryptoVariable = javax.crypto.Cipher.getInstance(securecipher);}
     \\\hline
 
-    \flawtag{F24}{flaw:parameterFromNestedConditionals} & parameterFromNestedConditionals (\opnumber{15}) & Unable to detect the construction of a misuse String based on calls to methods that construct the misuse;
+    \flawtag{F24}{flaw:parameterBuiltFromMethodCalls} & parameterBuiltFromMethodCalls (\opnumber{15}) & Unable to detect the construction of a misuse String based on calls to methods that construct the misuse;
     \eg
     see \appendix Method Builder
     \\\hline
 
-    \flawtag{F25}{flaw:parameterBuiltFromMethodCalls} & parameterBuiltFromMethodCalls (\opnumber{16}) & Being unable to keep track of a variable as it is passed through a nested number of conditional statements;
+    \flawtag{F25}{flaw:parameterFromNestedConditionals} & parameterFromNestedConditionals (\opnumber{14}) & Being unable to keep track of a variable as it is passed through a nested number of conditional statements;
     \eg
     see \appendix Nested Conditionals
     \\\hline
