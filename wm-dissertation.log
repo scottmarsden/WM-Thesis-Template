@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  17 APR 2023 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  20 APR 2023 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,7 +849,18 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count352
 \l__pdf_internal_box=\box126
-) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.aux)
+) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.aux (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Introduction.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Framework.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.aux
+
+LaTeX Warning: Label `fig:taxonomy' multiply defined.
+
+) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Evaluation.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Results.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Conclusion.aux)
+
+LaTeX Warning: Label `lst:iterativeconditionals' multiply defined.
+
+
+LaTeX Warning: Label `lst:iterativeconditionals' multiply defined.
+
+)
 \openout1 = `wm-dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
@@ -911,6 +922,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 116.
 LaTeX Info: Redefining \pageref on input line 116.
 LaTeX Info: Redefining \nameref on input line 116.
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.out) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.out)
 \@outlinefile=\write4
 \openout4 = `wm-dissertation.out'.
 
@@ -948,12 +960,918 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--144
 
  []
 
-[2] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/abstract.tex) [3]
+[2] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/abstract.tex) [3] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.tocpdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 ...numberline {3.4}MASC Web}{31}{section.3.4}
+                                                  % [1])
 \tf@toc=\write5
 \openout5 = `wm-dissertation.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.144 \makeThesisProlog
-                        [1] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/acknowledge.tex)pdfTeX warning (ext4): destination with the same identif
+                        [2] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/acknowledge.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \makeThesisProlog
+                        [3] [4] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lot)
+\tf@lot=\write6
+\openout6 = `wm-dissertation.lot'.
+
+ [5] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lof
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+\tf@lof=\write7
+\openout7 = `wm-dissertation.lof'.
+
+ [6]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \makeThesisProlog
+                        [1]
+\openout2 = `Chapter-Introduction.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Introduction.tex
+Chapter 1.
+
+Package natbib Warning: Citation `Ami_2022' on page 2 undefined on input line 9.
+
+[2
+
+
+] [3] [4] [5] [6]
+
+Package natbib Warning: Citation `snyk' on page 7 undefined on input line 60.
+
+
+Package natbib Warning: Citation `codeguru' on page 7 undefined on input line 60.
+
+
+Package natbib Warning: Citation `sonarqube' on page 7 undefined on input line 60.
+
+[7] [8]
+
+Package natbib Warning: Citation `QWR18' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `droidbench' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `iccbench' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `PBW18' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `bkm+18' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `' on page 9 undefined on input line 80.
+
+
+Package natbib Warning: Citation `lss+15' on page 9 undefined on input line 81.
+
+
+Package natbib Warning: Citation `bkm+18' on page 9 undefined on input line 89.
+
+
+Package natbib Warning: Citation `arf+14' on page 9 undefined on input line 89.
+
+
+Package natbib Warning: Citation `wror14' on page 9 undefined on input line 89.
+
+
+LaTeX Warning: Reference `lst:des-example' on page 9 undefined on input line 93.
+
+
+LaTeX Warning: Reference `lst:des-misuse-2' on page 9 undefined on input line 93.
+
+
+Package natbib Warning: Citation `dhk+16' on page 9 undefined on input line 95.
+
+
+Package natbib Warning: Citation `WLW+19' on page 9 undefined on input line 95.
+
+
+Package natbib Warning: Citation `GKL+19' on page 9 undefined on input line 95.
+
+
+Package natbib Warning: Citation `QWR18' on page 9 undefined on input line 95.
+
+
+Package natbib Warning: Citation `PBW18' on page 9 undefined on input line 95.
+
+[9]
+
+Package natbib Warning: Citation `fhm+12' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `ebfk13' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `cognicrypteclipse' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `knr+17' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `KSA+18' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `deepsource' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `snyk' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `sonarqube' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `codeguru' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `codiga' on page 10 undefined on input line 98.
+
+
+Package natbib Warning: Citation `BDA+17' on page 10 undefined on input line 99.
+
+
+Package natbib Warning: Citation `BDA+19' on page 10 undefined on input line 99.
+
+
+Package natbib Warning: Citation `BD16' on page 10 undefined on input line 99.
+
+
+Package natbib Warning: Citation `NVK16' on page 10 undefined on input line 99.
+
+[10]
+
+Package natbib Warning: Citation `Afrose_Xiao_Rahaman_Miller_Yao_2022' on page 11 undefined on input line 103.
+
+
+Package natbib Warning: Citation `Schlichtig_Wickert_Krüger_Bodden_Mezini_2022' on page 11 undefined on input line 103.
+
+
+Overfull \hbox (5.98648pt too wide) in paragraph at lines 121--122
+[]\T1/cmr/m/n/10.95 Ami, A., Kafle, K., Moran, K., Nad-karni, A., and Poshy-vanyk, D., ^^PSys-tem-atic Mutation-
+ []
+
+) [11] [12]
+\openout2 = `Chapter-Framework.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Framework.tex
+Chapter 2.
+<figures/overview.pdf, id=281, 455.7025pt x 198.7425pt>
+File: figures/overview.pdf Graphic file (type pdf)
+<use figures/overview.pdf>
+Package pdftex.def Info: figures/overview.pdf  used on input line 7.
+(pdftex.def)             Requested size: 409.3397pt x 178.52693pt.
+[13
+
+
+
+
+ </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/overview.pdf>]
+<figures/taxonomy.pdf, id=350, 912.40875pt x 836.12375pt>
+File: figures/taxonomy.pdf Graphic file (type pdf)
+<use figures/taxonomy.pdf>
+Package pdftex.def Info: figures/taxonomy.pdf  used on input line 31.
+(pdftex.def)             Requested size: 409.3397pt x 375.10397pt.
+ [14] [15 </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf>] [16] [17] [18] [19] [20] [21] [22]) [23]
+\openout2 = `Chapter-Implementation.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.tex
+Chapter 3.
+[24
+
+
+
+
+] [25]
+<figures/architecture.png, id=454, 1059.96pt x 819.06pt>
+File: figures/architecture.png Graphic file (type png)
+<use figures/architecture.png>
+Package pdftex.def Info: figures/architecture.png  used on input line 21.
+(pdftex.def)             Requested size: 409.3397pt x 316.30765pt.
+ [26 </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/architecture.png>] [27] [28] [29] [30] [31]) [32]
+\openout2 = `Chapter-Evaluation.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Evaluation.tex
+Chapter 4.
+[33
+
+
+
+
+] [34] [35] [36]) [37]
+\openout2 = `Chapter-Results.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Results.tex
+Chapter 5.
+(/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_flaws.tex
+Overfull \hbox (1.7875pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/bx/n/8 ID| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/bx/n/8 Flaw Name
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 smallCaseParameter
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F3[]*| 
+ []
+
+
+Overfull \hbox (26.92198pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 secureParameterReplaceInsecure
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F4[]*| 
+ []
+
+
+Overfull \hbox (34.00359pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 insecureParameterReplaceInsecure
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F5[]*| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 stringCaseTransform
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 Not re-solv-ing the case af-ter trans-for-ma-tion for anal-y-sis; \T1/cmr/m/it/8 e.g.\T1/cmr/m/n/8 ,[][][]
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F6[]*| 
+ []
+
+
+Overfull \hbox (25.76254pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 parameterFromMethodChaining
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F8[]*| 
+ []
+
+
+Overfull \hbox (31.65138pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 deterministicByteFromCharacters
+ []
+
+
+Overfull \hbox (26.25826pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 predictableByteFromSystemAPI
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F10[]| 
+ []
+
+
+Overfull \hbox (13.04759pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 X509ExtendedTrustManager
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F11[]| 
+ []
+
+
+Overfull \hbox (11.0453pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 X509TrustManagerSubType
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F12[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 IntHostnameVerifier
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F13[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 AbcHostnameVerifier
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F14[]| 
+ []
+
+
+Overfull \hbox (46.32835pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 X509TrustManagerGenericConditions
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 154--154
+\T1/cmr/m/n/8 within an anony-mous in-ner class (con-structed sim-i-larly as in \T1/cmr/bx/n/8 F13\T1/cmr/m/n/8 ),
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F15[]| 
+ []
+
+
+Overfull \hbox (45.56465pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 IntHostnameVerifierGenericCondition
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F16[]| 
+ []
+
+
+Overfull \hbox (49.81361pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 AbcHostnameVerifierGenericCondition
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F17[]| 
+ []
+
+
+Overfull \hbox (46.02843pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 X509TrustManagerSpecificConditions
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 154--154
+\T1/cmr/m/n/8 within an anony-mous in-ner class cre-ated from the \T1/cmtt/m/n/8 X509TrustManager\T1/cmr/m/n/8 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F18[]| 
+ []
+
+
+Overfull \hbox (45.26472pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 IntHostnameVerifierSpecificCondition
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T1/cmr/m/it/8 re-turns \T1/cmtt/m/n/8 true\T1/cmr/m/n/8 ; \T1/cmr/m/it/8 e.g.\T1/cmr/m/n/8 ,\T1/cmtt/m/n/8 if(true || session.getCipherSuite().length()>=0)
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F19[]| 
+ []
+
+
+Overfull \hbox (49.51369pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 AbcHostnameVerifierSpecificCondition
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 154--154
+\T1/cmr/m/n/8 method within an anony-mous in-ner class (con-structed sim-i-larly as in
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F20[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 StaticBytesInKeystore
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F21[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 CharArrayToString
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 Being un-able to con-vert an ar-ray of Char into a String ob-ject
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 154--154
+\T1/cmr/m/n/8 and pars-ing the value; \T1/cmr/m/it/8 e.g.\T1/cmr/m/n/8 ,[][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 154--154
+[][][][][][][][][][][][][][][]\T1/cmr/m/n/8 , such that [][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F22[]| 
+ []
+
+
+Overfull \hbox (6.24925pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 UnsafeValueFromSubstring
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F23[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 ObjectSensitivity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 154--154
+[][][][][][][][][][][][][][] [][][][][][][][][][][][][][][][][]
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F24[]| 
+ []
+
+
+Overfull \hbox (29.46442pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 parameterBuiltFromMethodCalls
+ []
+
+
+Overfull \hbox (4.65903pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 F25[]| 
+ []
+
+
+Overfull \hbox (35.53516pt too wide) in paragraph at lines 154--154
+[]|\T1/cmr/m/n/8 parameterFromNestedConditionals
+ []
+
+
+Overfull \hbox (111.81pt too wide) in alignment at lines 154--154
+[][][] 
+ []
+
+
+LaTeX Warning: Reference `sec:discussion' on page 38 undefined on input line 158.
+
+
+LaTeX Warning: Float too large for page by 405.71669pt on input line 161.
+
+) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_tbl_flaw_tools.tex
+Overfull \hbox (8.06319pt too wide) in paragraph at lines 87--87
+[]|\T1/cmr/bx/n/8 Class| 
+ []
+
+
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 87--87
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 87--87
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 87--87
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 87--87
+[]|[]| 
+ []
+
+
+Overfull \hbox (1.46703pt too wide) in paragraph at lines 87--87
+[]|[]| 
+ []
+
+) [38
+
+
+
+
+] [39] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_mutations_overall.tex
+
+Package tabularx Warning: X Columns too narrow (table too wide)
+(tabularx)                 on input line 24.
+
+
+Overfull \hbox (29.88159pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/bx/n/8 Detected| 
+ []
+
+
+Overfull \hbox (15.10742pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/m/n/8 40,877| 
+ []
+
+
+Overfull \hbox (15.10742pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/m/n/8 17,028| 
+ []
+
+
+Overfull \hbox (15.10742pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/m/n/8 11,601| 
+ []
+
+
+Overfull \hbox (4.24896pt too wide) in paragraph at lines 24--24
+[]|\T1/cmr/m/n/8 840| 
+ []
+
+
+Overfull \hbox (116.96968pt too wide) in alignment at lines 24--24
+[][][][] 
+ []
+
+) [40]) [41] [42] [43]
+\openout2 = `Chapter-Conclusion.aux'.
+
+ (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Conclusion.tex
+Appendix A.
+[44
+
+
+
+
+] [45] [46] [47]) [48] [49] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/appendixA.texpdfTeX warning (ext4): destination with the same identifier (name{appendix.A}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{Appendix A}
+                        
+Appendix A.
+pdfTeX warning (ext4): destination with the same identifier (name{section.A.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 \section{Code Snippets}
+                            (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 9.
+ [50
+
+
+
+] [51]
+
+Package natbib Warning: Citation `FBX+17' on page 52 undefined on input line 107.
+
+
+Package natbib Warning: Citation `owasp:mislabel' on page 52 undefined on input line 107.
+
+
+Package natbib Warning: Citation `FBX+17' on page 52 undefined on input line 107.
+
+
+Package natbib Warning: Citation `owasp:mislabel' on page 52 undefined on input line 107.
+
+[52] [53] [54] [55]) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.bbl [56] [57
+
+]
+Underfull \hbox (badness 3333) in paragraph at lines 80--84
+[]\T1/cmr/m/n/10.95 BCX509ExtendedTrustManager (Bouncy Cas-tle Li-brary 1.66 API Spec-i-fi-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
+\T1/cmtt/m/n/10.95 com / pfirmstone / JGDMS / blob / a44b96809783199b5fd69ffb803e0c4ceb9fad67 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
+\T1/cmtt/m/n/10.95 JGDMS / jgdms-[]jeri / src / main / java / net / jini / jeri / ssl /
+ []
+
+[58] [59]
+Underfull \hbox (badness 2269) in paragraph at lines 167--174
+[]\T1/cmr/m/n/10.95 NSF Award Search: Award#1929701 - SaTC: TTP: Medium: Col-lab-o-ra-
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 167--174
+\T1/cmr/m/n/10.95 tive: Deployment-quality and Ac-ces-si-ble So-lu-tions for Cryp-tog-ra-phy Code
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 184--187
+[]\T1/cmr/m/n/10.95 Deepsource - se-cure ev-ery com-mit with-out slow-ing de-vel-op-ment.  []$\T1/cmtt/m/n/10.95 https : / /
+ []
+
+[60]
+Underfull \hbox (badness 3281) in paragraph at lines 203--207
+[]\T1/cmr/m/n/10.95 secure-software-engineering/DroidBench: A micro-benchmark suite to as-sess
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 203--207
+\T1/cmr/m/n/10.95 the sta-bil-ity of taint-analysis tools for An-droid.  []$\T1/cmtt/m/n/10.95 https : / / github . com /
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 298--303
+\T1/cmtt/m/n/10.95 apache / hive / blob / 526bd87e9103375f0ddb8064dcfd8c31342b4c08 / ql / src / java /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--303
+\T1/cmtt/m/n/10.95 org / apache / hadoop / hive / ql / udf / generic / GenericUDFAesBase . java # L108$[]\T1/cmr/m/n/10.95 ,
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
+\T1/cmtt/m/n/10.95 blob / 1a3fd112b02133892c7c95d4be607079ffa83211 / modules / core / src / main /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
+\T1/cmtt/m/n/10.95 java / org / apache / ignite / internal / util / IgniteUtils . java # L11714$[]\T1/cmr/m/n/10.95 , Jan-uary
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 312--317
+[]\T1/cmr/m/n/10.95 ExoPlayer/CachedContentIndex.java at google/Ex-o-Player.  []$\T1/cmtt/m/n/10.95 https : / / github .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--317
+\T1/cmtt/m/n/10.95 com / google / ExoPlayer / blob / f182c0c1169cba7c22280058368127c24609054f /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--317
+\T1/cmtt/m/n/10.95 library / core / src / main / java / com / google / android / exoplayer2 / upstream /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+[]\T1/cmr/m/n/10.95 UltimateAndroid/TripleDES.java at cym-c-s-g/Ul-ti-mate-An-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+\T1/cmr/m/n/10.95 droid.  []$\T1/cmtt/m/n/10.95 https : / / github . com / cymcsg / UltimateAndroid / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+\T1/cmtt/m/n/10.95 678afdda49d1e7c91a36830946a85e0fda541971 / UltimateAndroid /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+\T1/cmtt/m/n/10.95 ultimateandroid / src / main / java / com / marshalchen / ua / common / commonUtils /
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 326--331
+[]\T1/cmr/m/n/10.95 jeesuite-libs/DES.java at vakinge/jeesuite-libs.  []$\T1/cmtt/m/n/10.95 https : / / github . com / vakinge /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
+\T1/cmtt/m/n/10.95 jeesuite-[]libs / blob / master / jeesuite-[]common / src / main / java / com / jeesuite /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--338
+\T1/cmtt/m/n/10.95 blob / 768e5190a1c9d40a4acc7143c461c3b114e7fd59 / java / ql / src / semmle / code /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+[]\T1/cmr/m/n/10.95 encryption-machine/asymencrpmachine.java at mrdrivingduck/encryption-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+\T1/cmr/m/n/10.95 machine.  []$\T1/cmtt/m/n/10.95 https : / / github . com / mrdrivingduck / encryption-[]machine / blob /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
+\T1/cmtt/m/n/10.95 74c5679c86cf11f74409cfc63e1385b906734099 / src / iot / zjt / encrypt / machine /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--352
+\T1/cmtt/m/n/10.95 apache / jmeter / blob / 704adb91f7f967402b9b709e89f5b73f0a466283 / src / core /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--352
+\T1/cmtt/m/n/10.95 src / main / java / org / apache / jmeter / util / TrustAllSSLSocketFactory . java$[]\T1/cmr/m/n/10.95 ,
+ []
+
+[63]
+Underfull \hbox (badness 1237) in paragraph at lines 354--359
+[]\T1/cmr/m/n/10.95 pdf-service/md5util.java at elainrd/pdf-servic.  []$\T1/cmtt/m/n/10.95 https : / / github . com / elainrd /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--359
+\T1/cmtt/m/n/10.95 pdf-[]service / blob / 243588e446ed875e13a99ea08e2baa3e0806c346 / src / main /
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 361--367
+[]\T1/cmr/m/n/10.95 Announcing third-party code scan-ning tools: static anal-y-sis & de-vel-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--367
+\T1/cmr/m/n/10.95 oper se-cu-rity train-ing - The GitHub Blog.  []$\T1/cmtt/m/n/10.95 https : / / github . blog /
+ []
+
+
+Overfull \hbox (188.6464pt too wide) in paragraph at lines 361--367
+\T1/cmtt/m/n/10.95 2020-[]10-[]05-[]announcing-[]third-[]party-[]code-[]scanning-[]tools-[]static-[]analysis-[]and-[]developer-[]security-[]training/$[]\T1/cmr/m/n/10.95 ,
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 369--374
+[]\T1/cmr/m/n/10.95 codeql/UnsafeCertTrust.ql at github/-cod-eql.  []$\T1/cmtt/m/n/10.95 https : / / github . com / github /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--374
+\T1/cmtt/m/n/10.95 codeql / blob / 768e5190a1c9d40a4acc7143c461c3b114e7fd59 / java / ql / src /
+ []
+
+[64]
+/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.bbl:406: Misplaced alignment tab character &.
+l.406 ...EEE Symposium on Security and Privacy (S&
+                                                  Pâ€™06)}, page
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 417--422
+[]\T1/cmr/m/sc/10.95 Barbara Kitchen-ham, O. Pearl Br-ere-ton, David Bud-gen, Mark
+ []
+
+
+/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.bbl:435: Package inputenc Error: Unicode character â€¯ (U+202F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \newblock Cognicrypt gen â€¯
+                                  : generating code for the secure usage of ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[65]
+Underfull \hbox (badness 1082) in paragraph at lines 460--467
+[]\T1/cmr/m/sc/10.95 Mario Linares-Vásquez, Gabriele Bavota, Michele Tu-fano, Kevin
+ []
+
+[66]
+Underfull \hbox (badness 2065) in paragraph at lines 501--507
+[]\T1/cmr/m/sc/10.95 Kevin Moran, Michele Tu-fano, Car-los Bernal-Cárdenas, Mario
+ []
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
+[]\T1/cmr/m/n/10.95 Java Se-cure Socket Ex-ten-sion (JSSE) Ref-er-ence Guide - Or-a-cle Help
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--546
+\T1/cmr/m/n/10.95 Cen-ter.  []$\T1/cmtt/m/n/10.95 https : / / docs . oracle . com / en / java / javase / 11 / security /
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 577--582
+[]\T1/cmr/m/n/10.95 qark/ecb_cipher_usage.py at mas-ter \TS1/cmr/m/n/10.95 · \T1/cmr/m/n/10.95 linked-in/qark.  []$\T1/cmtt/m/n/10.95 https : / / github . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--582
+\T1/cmtt/m/n/10.95 linkedin / qark / blob / master / qark / plugins / crypto / ecb _ cipher _ usage . py # L31$[]\T1/cmr/m/n/10.95 ,
+ []
+
+[68] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 684--690
+[]\T1/cmr/m/n/10.95 android - un-safe im-ple-men-ta-tion of the Host-nameV-er-i-fier in-ter-face -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--690
+\T1/cmr/m/n/10.95 Stack Over-flow.  []$\T1/cmtt/m/n/10.95 https : / / stackoverflow . com / questions / 47069277 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--690
+\T1/cmtt/m/n/10.95 unsafe-[]implementation-[]of-[]the-[]hostnameverifier-[]interface$[]\T1/cmr/m/n/10.95 , March 2018.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--701
+[]\T1/cmr/m/n/10.95 Coverity SAST Soft-ware | Syn-op-sys.  []$\T1/cmtt/m/n/10.95 https : / / www . synopsys . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--701
+\T1/cmtt/m/n/10.95 software-[]integrity / security-[]testing / static-[]analysis-[]sast . html$[]\T1/cmr/m/n/10.95 .  Ac-
+ []
+
+[70] [71])
+
+Package natbib Warning: There were undefined citations.
+
+[72] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.aux (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Introduction.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Framework.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Evaluation.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Results.aux) (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Conclusion.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `wm-dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: 5E8FE82F91D0770E4E2297CA6228BF53;4043.
+ ) 
+Here is how much of TeX's memory you used:
+ 27417 strings out of 478994
+ 484182 string characters out of 5858185
+ 1149994 words of memory out of 5000000
+ 43882 multiletter control sequences out of 15000+600000
+ 431783 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 87i,17n,88p,2003b,1924s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfxc0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.pdf (83 pages, 1408647 bytes).
+PDF statistics:
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 1067 compressed objects within 11 object streams
+ 398 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+
