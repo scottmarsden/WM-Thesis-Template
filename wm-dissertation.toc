@@ -21,11 +21,11 @@
 \contentsline {chapter}{\numberline {4}Evaluation and Methodology}{33}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Results and Findings}{38}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Analyzing Flaws}{38}{section.5.1}%
-\contentsline {section}{\numberline {.1}Exhaustive Results}{40}{section.Alph0.1}%
-\contentsline {chapter}{\numberline {A}Conclusion}{44}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Limitations}{44}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Discussion}{46}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Lessons Learned}{48}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Conclusion}{48}{section.A.4}%
-\contentsline {chapter}{\numberline {A}Appendix A}{50}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Code Snippets}{50}{section.A.1}%
+\contentsline {section}{\numberline {5.2}Exhaustive Results}{40}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Limitations}{45}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Discussion}{47}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Lessons Learned}{49}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Conclusion}{49}{section.6.4}%
+\contentsline {chapter}{\numberline {A}Appendix A}{51}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Code Snippets}{51}{section.A.1}%

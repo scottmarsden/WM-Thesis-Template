@@ -1,0 +1,65 @@
+\begin{table*}[ht]
+%\begin{longtable*}[ht]
+    
+    \centering
+	\tiny
+    \caption{\small Descriptions of Newly discovered Flaws by Analyzing \detectors.}
+    \label{tbl:newFlaws}
+    \noindent\makebox[\textwidth]{
+    \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.35\textwidth}|X}
+    \hline
+    \textbf{ID} & \textbf{Flaw Name} (\textbf{Operator}) & \textbf{Description of Flaws} \\\hline
+
+
+    \hline
+
+    
+
+    %\multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{Flaw Class 6 (FC6): New Flaws}}}\\
+    %\hline
+
+    \flawtag{F20}{flaw:StaticBytesInKeystore} & StaticBytesInKeystore (\opnumber{19}) & Not detecting bytes that are created using a static source converted to bytes and passed into IV;
+    \eg
+    \inline{new IvParameterSpec(val.getBytes(),0,8);},
+    such that
+    \inline{byte[] val = "12345678".getBytes();}
+    \\\hline
+
+    \flawtag{F21}{flaw:CharArrayToString} & CharArrayToString (\opnumber{17}) & Being unable to convert an array of Char into a String object and parsing the value;
+    \eg
+    \inline{javax.crypto.Cipher.getInstance(String.valueOf(cryptoVariable));},
+    such that
+    \inline{char[] cryptoVariable  = "DES".toCharArray();}
+    \\\hline
+
+    \flawtag{F22}{flaw:UnsafeValueFromSubstring} & UnsafeValueFromSubstring (\opnumber{18}) & Not detecting a Substring misuse being parsed from a longer string;
+    \eg
+    \inline{javax.crypto.Cipher.getInstance("secureParamAES".substring(11));},
+    \\\hline
+
+    \flawtag{F23}{flaw:ObjectSensitivity} & ObjectSensitivity (\opnumber{16}) & Not being able to differentiate between two instances of the same object type one containing a misuse and one containing a safe value;
+    \eg
+    \inline{String securecipher = new CipherPack().safe().getpropertyName();}
+    \inline{String unsecurecipher = new CipherPack().unsafe().getpropertyName();}
+    \inline{securecipher = unsecurecipher;}
+    \inline{javax.crypto.Cipher cryptoVariable = javax.crypto.Cipher.getInstance(securecipher);}
+    \\\hline
+
+    \flawtag{F24}{flaw:parameterBuiltFromMethodCalls} & parameterBuiltFromMethodCalls (\opnumber{15}) & Unable to detect the construction of a misuse String based on calls to methods that construct the misuse;
+    \eg
+    \eg see Listing~\ref{lst:methodbuilder} in Appendix
+    \\\hline
+
+    \flawtag{F25}{flaw:parameterFromNestedConditionals} & parameterFromNestedConditionals (\opnumber{14}) & Being unable to keep track of a variable as it is passed through a nested number of conditional statements;
+    \eg see Listing~\ref{lst:iterativeconditionals} in Appendix
+    \\\hline
+
+    \end{tabularx}}
+\begin{flushleft}
+{
++ flaws were observed for mulitple API misuse cases\\ 
+\add{*Certain seemingly-unrealistic flaws may be seen in or outside a \detector's ``scope'', depending on the perspective; see Section~\ref{sec:discussion} for a broader treatment of this caveat.}
+}
+\end{flushleft}
+\end{table*}
+%\end{longtable*}

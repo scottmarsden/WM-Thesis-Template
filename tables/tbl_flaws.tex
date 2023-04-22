@@ -1,10 +1,12 @@
-\begin{table*}[!ht]
+\begin{table*}[ht]
+%\begin{longtable*}[ht]
+    \vspace*{-100px}
     \centering
-	\scriptsize
-    \caption{\small Descriptions of Flaws discovered by Analyzing \detectors.}
+	\tiny
+    \caption{\small Descriptions of Original Flaws discovered by Analyzing \detectors.}
     \label{tbl:flaws}
     \noindent\makebox[\textwidth]{
-    \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.22\textwidth}|X}
+    \begin{tabularx}{\textwidth}{p{.022\textwidth}|p{.28\textwidth}|X}
     \hline
     \textbf{ID} & \textbf{Flaw Name} (\textbf{Operator}) & \textbf{Description of Flaws} \\\hline
 
@@ -111,45 +113,8 @@
     \inline{if(true || session.getCipherSuite().length()>=0) return true; return false;}
     \\\hline
 
-    \multicolumn{1}{l}{} & \multicolumn{2}{l}{\textsc{\textbf{New Flaws}}}\\
-    \hline
-
-    \flawtag{F20}{flaw:StaticBytesInKeystore} & StaticBytesInKeystore (\opnumber{19}) & Not detecting bytes that are created using a static source converted to bytes and passed into IV;
-    \eg
-    \inline{new IvParameterSpec(val.getBytes(),0,8);},
-    such that
-    \inline{byte[] val = "12345678".getBytes();}
-    \\\hline
-
-    \flawtag{F21}{flaw:CharArrayToString} & CharArrayToString (\opnumber{17}) & Being unable to convert an array of Char into a String object and parsing the value;
-    \eg
-    \inline{javax.crypto.Cipher.getInstance(String.valueOf(cryptoVariable));},
-    such that
-    \inline{char[] cryptoVariable  = "DES".toCharArray();}
-    \\\hline
-
-    \flawtag{F22}{flaw:UnsafeValueFromSubstring} & UnsafeValueFromSubstring (\opnumber{18}) & Not detecting a Substring misuse being parsed from a longer string;
-    \eg
-    \inline{javax.crypto.Cipher.getInstance("secureParamAES".substring(11));},
-    \\\hline
-
-    \flawtag{F23}{flaw:ObjectSensitivity} & ObjectSensitivity (\opnumber{16}) & Not being able to differentiate between two instances of the same object type one containing a misuse and one containing a safe value;
-    \eg
-    \inline{String securecipher = new CipherPack().safe().getpropertyName();}
-    \inline{String unsecurecipher = new CipherPack().unsafe().getpropertyName();}
-    \inline{securecipher = unsecurecipher;}
-    \inline{javax.crypto.Cipher cryptoVariable = javax.crypto.Cipher.getInstance(securecipher);}
-    \\\hline
-
-    \flawtag{F24}{flaw:parameterBuiltFromMethodCalls} & parameterBuiltFromMethodCalls (\opnumber{15}) & Unable to detect the construction of a misuse String based on calls to methods that construct the misuse;
-    \eg
-    see \appendix Method Builder
-    \\\hline
-
-    \flawtag{F25}{flaw:parameterFromNestedConditionals} & parameterFromNestedConditionals (\opnumber{14}) & Being unable to keep track of a variable as it is passed through a nested number of conditional statements;
-    \eg
-    see \appendix Nested Conditionals
-    \\\hline
+    
+    
 
     \end{tabularx}}
 \begin{flushleft}
@@ -159,3 +124,4 @@
 }
 \end{flushleft}
 \end{table*}
+%\end{longtable*}
