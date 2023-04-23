@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  22 APR 2023 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  23 APR 2023 15:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -917,9 +917,6 @@ LaTeX Warning: Label `fig:taxonomy' multiply defined.
 
 LaTeX Warning: Label `lst:iterativeconditionals' multiply defined.
 
-
-LaTeX Warning: Label `lst:iterativeconditionals' multiply defined.
-
 )
 \openout1 = `wm-dissertation.aux'.
 
@@ -1063,7 +1060,11 @@ Package natbib Warning: Citation `Ami_2022' on page 2 undefined on input line 9.
 [2
 
 
-] [3] [4] [5] [6]
+] [3] [4] [5]
+
+Package natbib Warning: Citation `bkm+18' on page 6 undefined on input line 41.
+
+[6]
 
 Package natbib Warning: Citation `snyk' on page 7 undefined on input line 60.
 
@@ -1095,97 +1096,97 @@ Package natbib Warning: Citation `' on page 9 undefined on input line 80.
 
 Package natbib Warning: Citation `lss+15' on page 9 undefined on input line 81.
 
-
-Package natbib Warning: Citation `bkm+18' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `arf+14' on page 9 undefined on input line 89.
-
-
-Package natbib Warning: Citation `wror14' on page 9 undefined on input line 89.
-
-
-LaTeX Warning: Reference `lst:des-example' on page 9 undefined on input line 93.
-
-
-LaTeX Warning: Reference `lst:des-misuse-2' on page 9 undefined on input line 93.
-
-
-Package natbib Warning: Citation `dhk+16' on page 9 undefined on input line 95.
-
-
-Package natbib Warning: Citation `WLW+19' on page 9 undefined on input line 95.
-
-
-Package natbib Warning: Citation `GKL+19' on page 9 undefined on input line 95.
-
-
-Package natbib Warning: Citation `QWR18' on page 9 undefined on input line 95.
-
-
-Package natbib Warning: Citation `PBW18' on page 9 undefined on input line 95.
-
 [9]
 
-Package natbib Warning: Citation `fhm+12' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `bkm+18' on page 10 undefined on input line 89.
 
 
-Package natbib Warning: Citation `ebfk13' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `arf+14' on page 10 undefined on input line 89.
 
 
-Package natbib Warning: Citation `cognicrypteclipse' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `wror14' on page 10 undefined on input line 89.
 
 
-Package natbib Warning: Citation `knr+17' on page 10 undefined on input line 98.
+LaTeX Warning: Reference `lst:des-example' on page 10 undefined on input line 93.
 
 
-Package natbib Warning: Citation `KSA+18' on page 10 undefined on input line 98.
+LaTeX Warning: Reference `lst:des-misuse-2' on page 10 undefined on input line 93.
 
 
-Package natbib Warning: Citation `deepsource' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `dhk+16' on page 10 undefined on input line 95.
 
 
-Package natbib Warning: Citation `snyk' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `WLW+19' on page 10 undefined on input line 95.
 
 
-Package natbib Warning: Citation `sonarqube' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `GKL+19' on page 10 undefined on input line 95.
 
 
-Package natbib Warning: Citation `codeguru' on page 10 undefined on input line 98.
+Package natbib Warning: Citation `QWR18' on page 10 undefined on input line 95.
 
 
-Package natbib Warning: Citation `codiga' on page 10 undefined on input line 98.
-
-
-Package natbib Warning: Citation `BDA+17' on page 10 undefined on input line 99.
-
-
-Package natbib Warning: Citation `BDA+19' on page 10 undefined on input line 99.
-
-
-Package natbib Warning: Citation `BD16' on page 10 undefined on input line 99.
-
-
-Package natbib Warning: Citation `NVK16' on page 10 undefined on input line 99.
+Package natbib Warning: Citation `PBW18' on page 10 undefined on input line 95.
 
 [10]
+
+Package natbib Warning: Citation `fhm+12' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `ebfk13' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `cognicrypteclipse' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `knr+17' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `KSA+18' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `deepsource' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `snyk' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `sonarqube' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `codeguru' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `codiga' on page 11 undefined on input line 98.
+
+
+Package natbib Warning: Citation `BDA+17' on page 11 undefined on input line 99.
+
+
+Package natbib Warning: Citation `BDA+19' on page 11 undefined on input line 99.
+
+
+Package natbib Warning: Citation `BD16' on page 11 undefined on input line 99.
+
+
+Package natbib Warning: Citation `NVK16' on page 11 undefined on input line 99.
+
 
 Package natbib Warning: Citation `Afrose_Xiao_Rahaman_Miller_Yao_2022' on page 11 undefined on input line 103.
 
 
 Package natbib Warning: Citation `Schlichtig_Wickert_Krüger_Bodden_Mezini_2022' on page 11 undefined on input line 103.
 
-
+[11]
 Overfull \hbox (5.98648pt too wide) in paragraph at lines 121--122
 []\T1/cmr/m/n/10.95 Ami, A., Kafle, K., Moran, K., Nad-karni, A., and Poshy-vanyk, D., ^^PSys-tem-atic Mutation-
  []
 
-) [11] [12]
+) [12]
 \openout2 = `Chapter-Framework.aux'.
 
  (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Framework.tex
 Chapter 2.
-<figures/overview.pdf, id=285, 455.7025pt x 198.7425pt>
+<figures/overview.pdf, id=289, 455.7025pt x 198.7425pt>
 File: figures/overview.pdf Graphic file (type pdf)
 <use figures/overview.pdf>
 Package pdftex.def Info: figures/overview.pdf  used on input line 7.
@@ -1196,12 +1197,76 @@ Package pdftex.def Info: figures/overview.pdf  used on input line 7.
 
 
  </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/overview.pdf>]
-<figures/taxonomy.pdf, id=354, 912.40875pt x 836.12375pt>
+<figures/taxonomy.pdf, id=358, 912.40875pt x 836.12375pt>
 File: figures/taxonomy.pdf Graphic file (type pdf)
 <use figures/taxonomy.pdf>
 Package pdftex.def Info: figures/taxonomy.pdf  used on input line 31.
 (pdftex.def)             Requested size: 409.3397pt x 375.10397pt.
- [14] [15 </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf>] [16] [17] [18] [19] [20] [21] [22]) [23]
+ [14] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_taxonomy_misuses.tex) [15 </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf>] [16]
+
+Package natbib Warning: Citation `MITRE' on page 17 undefined on input line 47.
+
+(/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_papers.tex
+
+Package natbib Warning: Citation `Xing_Cheng_Dietl_2021' on page 17 undefined on input line 11.
+
+
+Package natbib Warning: Citation `oha+21' on page 17 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Possemato_Fratantonio' on page 17 undefined on input line 15.
+
+
+Package natbib Warning: Citation `Afrose_Rahaman_Yao_2019' on page 17 undefined on input line 17.
+
+
+Package natbib Warning: Citation `ZCD+19' on page 17 undefined on input line 19.
+
+
+Package natbib Warning: Citation `GKL+19' on page 17 undefined on input line 21.
+
+
+Package natbib Warning: Citation `Hazhirpasand_Ghafari_Nierstrasz_2020' on page 17 undefined on input line 23.
+
+
+Package natbib Warning: Citation `Wickert_Baumgärtner_Breitfelder_Mezini_2021' on page 17 undefined on input line 25.
+
+
+Package natbib Warning: Citation `BDA+19' on page 17 undefined on input line 27.
+
+
+Package natbib Warning: Citation `Feichtner_2019' on page 17 undefined on input line 29.
+
+
+Package natbib Warning: Citation `Wickert_Reif_Eichberg_Dodhy_Mezini_2019' on page 17 undefined on input line 31.
+
+
+Package natbib Warning: Citation `Krüger_Ali_Bodden_2020' on page 17 undefined on input line 33.
+
+
+Package natbib Warning: Citation `Singleton_Zhao_Song_Siy_2020' on page 17 undefined on input line 35.
+
+
+Package natbib Warning: Citation `Rodrigues_Braga_Dahab_2020' on page 17 undefined on input line 37.
+
+
+Package natbib Warning: Citation `Afrose_Xiao_Rahaman_Miller_Yao_2022' on page 17 undefined on input line 39.
+
+
+Package natbib Warning: Citation `Zhang_Kabir_Xiao_Yao_Meng_2023' on page 17 undefined on input line 41.
+
+
+Package natbib Warning: Citation `Newbury_Ali_Craik_2021' on page 17 undefined on input line 43.
+
+
+Package natbib Warning: Citation `Choudhari_Guilley_Karray' on page 17 undefined on input line 45.
+
+
+Overfull \hbox (7.08815pt too wide) in paragraph at lines 7--48
+ [][] 
+ []
+
+[17]) [18] [19] [20] [21] [22]) [23]
 \openout2 = `Chapter-Implementation.aux'.
 
  (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.tex
@@ -1212,7 +1277,7 @@ Chapter 3.
 
 
 ] [25]
-<figures/architecture.png, id=458, 1059.96pt x 819.06pt>
+<figures/architecture.png, id=480, 1059.96pt x 819.06pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 21.
@@ -1783,56 +1848,56 @@ Underfull \hbox (badness 1082) in paragraph at lines 460--467
  []
 
 [67]
-Underfull \hbox (badness 2065) in paragraph at lines 501--507
+Underfull \hbox (badness 2065) in paragraph at lines 506--512
 []\T1/cmr/m/sc/10.95 Kevin Moran, Michele Tu-fano, Car-los Bernal-Cárdenas, Mario
  []
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 541--546
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 []\T1/cmr/m/n/10.95 Java Se-cure Socket Ex-ten-sion (JSSE) Ref-er-ence Guide - Or-a-cle Help
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--546
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 \T1/cmr/m/n/10.95 Cen-ter.  []$\T1/cmtt/m/n/10.95 https : / / docs . oracle . com / en / java / javase / 11 / security /
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 577--582
+Underfull \hbox (badness 1436) in paragraph at lines 582--587
 []\T1/cmr/m/n/10.95 qark/ecb_cipher_usage.py at mas-ter \TS1/cmr/m/n/10.95 · \T1/cmr/m/n/10.95 linked-in/qark.  []$\T1/cmtt/m/n/10.95 https : / / github . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 577--582
+Underfull \hbox (badness 10000) in paragraph at lines 582--587
 \T1/cmtt/m/n/10.95 linkedin / qark / blob / master / qark / plugins / crypto / ecb _ cipher _ usage . py # L31$[]\T1/cmr/m/n/10.95 ,
  []
 
 [69] [70]
-Underfull \hbox (badness 10000) in paragraph at lines 684--690
+Underfull \hbox (badness 10000) in paragraph at lines 689--695
 []\T1/cmr/m/n/10.95 android - un-safe im-ple-men-ta-tion of the Host-nameV-er-i-fier in-ter-face -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--690
+Underfull \hbox (badness 10000) in paragraph at lines 689--695
 \T1/cmr/m/n/10.95 Stack Over-flow.  []$\T1/cmtt/m/n/10.95 https : / / stackoverflow . com / questions / 47069277 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--690
+Underfull \hbox (badness 10000) in paragraph at lines 689--695
 \T1/cmtt/m/n/10.95 unsafe-[]implementation-[]of-[]the-[]hostnameverifier-[]interface$[]\T1/cmr/m/n/10.95 , March 2018.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 697--701
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 702--706
 []\T1/cmr/m/n/10.95 Coverity SAST Soft-ware | Syn-op-sys.  []$\T1/cmtt/m/n/10.95 https : / / www . synopsys . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--701
+Underfull \hbox (badness 10000) in paragraph at lines 702--706
 \T1/cmtt/m/n/10.95 software-[]integrity / security-[]testing / static-[]analysis-[]sast . html$[]\T1/cmr/m/n/10.95 .  Ac-
  []
 
-[71] [72])
+[72])
 
 Package natbib Warning: There were undefined citations.
 
@@ -1852,18 +1917,18 @@ Package rerunfilecheck Info: File `wm-dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: D8436A19666E1AEB1A4C4A0E9C10CC1C;4034.
  ) 
 Here is how much of TeX's memory you used:
- 28593 strings out of 478994
- 503885 string characters out of 5858185
- 1150341 words of memory out of 5000000
- 45011 multiletter control sequences out of 15000+600000
+ 28609 strings out of 478994
+ 504421 string characters out of 5858185
+ 1150549 words of memory out of 5000000
+ 45018 multiletter control sequences out of 15000+600000
  434331 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,17n,117p,2003b,1966s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,17n,117p,2495b,1966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfxc0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.pdf (84 pages, 1473863 bytes).
+Output written on /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.pdf (84 pages, 1479352 bytes).
 PDF statistics:
- 1290 PDF objects out of 1440 (max. 8388607)
- 1085 compressed objects within 11 object streams
- 402 named destinations out of 1000 (max. 500000)
+ 1307 PDF objects out of 1440 (max. 8388607)
+ 1101 compressed objects within 12 object streams
+ 405 named destinations out of 1000 (max. 500000)
  276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

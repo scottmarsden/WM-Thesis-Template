@@ -497,6 +497,11 @@ pdf-service/md5util.java at elainrd/pdf-servic.
 \newblock {SAGE Publications, Inc}, {Thousand Oaks, Califorinia}, 3rd edition
   edition, 2014.
 
+\bibitem{MITRE}
+{Common Weakness Enumeration}.
+\newblock \url{https://cwe.mitre.org/}, February 2023.
+\newblock Accessed Feb, 2022.
+
 \bibitem{mtb+18}
 {\sc Kevin Moran, Michele Tufano, Carlos {Bernal-C{\'a}rdenas}, Mario
   {Linares-V{\'a}squez}, Gabriele Bavota, Christopher Vendome, Massimiliano

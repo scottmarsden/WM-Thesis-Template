@@ -1564,6 +1564,16 @@ INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.p
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/taxonomy.pdf
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_taxonomy_misuses.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_taxonomy_misuses.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_taxonomy_misuses.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_taxonomy_misuses.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_papers.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_papers.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_papers.tex
+INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/new_papers.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1095.tfm
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.tex
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Implementation.tex
@@ -1616,8 +1626,6 @@ INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_flaws.t
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_flaws.tex
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_flaws.tex
 INPUT /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/tables/tbl_flaws.tex
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0600.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/eccc0600.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecxc0600.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti0600.tfm

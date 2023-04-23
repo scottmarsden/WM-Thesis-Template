@@ -12,6 +12,8 @@ Database file #1: references.bib
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "knr+17"
 Warning--I didn't find a database entry for "Schlichtig_Wickert_Krüger_Bodden_Mezini_2022"
+Warning--I didn't find a database entry for "Wickert_Baumgärtner_Breitfelder_Mezini_2021"
+Warning--I didn't find a database entry for "Krüger_Ali_Bodden_2020"
 Warning--I didn't find a database entry for "owasp:mislabel"
 Warning--to sort, need author or key in iot-bill
 Warning--empty journal in Choudhari_Guilley_Karray
@@ -32,45 +34,45 @@ Warning--empty journal in Yan_Xu_Rountev
 Warning--empty year in Yan_Xu_Rountev
 Warning--empty journal in Zhang_Chen_Diao_Guo_Weng_Zhang
 Warning--empty year in Zhang_Chen_Diao_Guo_Weng_Zhang
-You've used 115 entries,
+You've used 116 entries,
             2136 wiz_defined-function locations,
-            1133 strings with 30437 characters,
-and the built_in function-call counts, 38957 in all, are:
-= -- 3823
-> -- 1745
+            1142 strings with 30652 characters,
+and the built_in function-call counts, 39130 in all, are:
+= -- 3841
+> -- 1746
 < -- 35
-+ -- 720
++ -- 721
 - -- 599
-* -- 2533
-:= -- 5636
-add.period$ -- 365
-call.type$ -- 115
-change.case$ -- 690
+* -- 2540
+:= -- 5656
+add.period$ -- 368
+call.type$ -- 116
+change.case$ -- 694
 chr.to.int$ -- 0
-cite$ -- 134
-duplicate$ -- 1708
-empty$ -- 3236
+cite$ -- 135
+duplicate$ -- 1715
+empty$ -- 3259
 format.name$ -- 599
-if$ -- 8703
+if$ -- 8746
 int.to.chr$ -- 0
-int.to.str$ -- 115
+int.to.str$ -- 116
 missing$ -- 67
-newline$ -- 577
+newline$ -- 582
 num.names$ -- 138
-pop$ -- 1006
+pop$ -- 1013
 preamble$ -- 1
-purify$ -- 575
+purify$ -- 578
 quote$ -- 0
-skip$ -- 1392
+skip$ -- 1399
 stack$ -- 0
-substring$ -- 1722
-swap$ -- 658
+substring$ -- 1727
+swap$ -- 659
 text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 458
+type$ -- 462
 warning$ -- 19
 while$ -- 226
-width$ -- 118
-write$ -- 1209
-(There were 23 warnings)
+width$ -- 119
+write$ -- 1219
+(There were 25 warnings)
