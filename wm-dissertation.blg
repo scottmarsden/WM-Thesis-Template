@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: wm-dissertation.aux
+A level-1 auxiliary file: Chapter-Introduction.aux
+A level-1 auxiliary file: Chapter-Framework.aux
+A level-1 auxiliary file: Chapter-Implementation.aux
+A level-1 auxiliary file: Chapter-Evaluation.aux
+A level-1 auxiliary file: Chapter-Results.aux
+A level-1 auxiliary file: Chapter-Conclusion.aux
+The style file: wmbib.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "knr+17"
+Warning--I didn't find a database entry for "Schlichtig_Wickert_Krüger_Bodden_Mezini_2022"
+Warning--I didn't find a database entry for "Wickert_Baumgärtner_Breitfelder_Mezini_2021"
+Warning--I didn't find a database entry for "Krüger_Ali_Bodden_2020"
+Warning--I didn't find a database entry for "owasp:mislabel"
+Warning--to sort, need author or key in iot-bill
+Warning--empty journal in Choudhari_Guilley_Karray
+Warning--empty year in Choudhari_Guilley_Karray
+Warning--empty booktitle in Feichtner_2019
+Warning--empty journal in Hazhirpasand_Ghafari_Nierstrasz_2020
+Warning--there's a number but no volume in Hazhirpasand_Ghafari_Nierstrasz_2020
+Warning--empty journal in Livshits_Lam
+Warning--empty year in Livshits_Lam
+Warning--empty journal in Newbury_Ali_Craik_2021
+Warning--empty journal in Oltrogge_Huaman_Amft_Acar_Backes_Fahl
+Warning--empty year in Oltrogge_Huaman_Amft_Acar_Backes_Fahl
+Warning--empty journal in Possemato_Fratantonio
+Warning--empty year in Possemato_Fratantonio
+Warning--empty journal in Schlichtig_Wickert_KrÃ¼ger_Bodden_Mezini_2022
+Warning--there's a number but no volume in Schlichtig_Wickert_KrÃ¼ger_Bodden_Mezini_2022
+Warning--empty journal in Yan_Xu_Rountev
+Warning--empty year in Yan_Xu_Rountev
+Warning--empty journal in Zhang_Chen_Diao_Guo_Weng_Zhang
+Warning--empty year in Zhang_Chen_Diao_Guo_Weng_Zhang
+You've used 116 entries,
+            2136 wiz_defined-function locations,
+            1142 strings with 30652 characters,
+and the built_in function-call counts, 39130 in all, are:
+= -- 3841
+> -- 1746
+< -- 35
++ -- 721
+- -- 599
+* -- 2540
+:= -- 5656
+add.period$ -- 368
+call.type$ -- 116
+change.case$ -- 694
+chr.to.int$ -- 0
+cite$ -- 135
+duplicate$ -- 1715
+empty$ -- 3259
+format.name$ -- 599
+if$ -- 8746
+int.to.chr$ -- 0
+int.to.str$ -- 116
+missing$ -- 67
+newline$ -- 582
+num.names$ -- 138
+pop$ -- 1013
+preamble$ -- 1
+purify$ -- 578
+quote$ -- 0
+skip$ -- 1399
+stack$ -- 0
+substring$ -- 1727
+swap$ -- 659
+text.length$ -- 35
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 462
+warning$ -- 19
+while$ -- 226
+width$ -- 119
+write$ -- 1219
+(There were 25 warnings)
