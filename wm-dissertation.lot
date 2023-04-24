@@ -5,9 +5,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces \small Descriptions of Original Flaws discovered by Analyzing crypto-detectors\xspace .\relax }}{43}{table.caption.6}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces \small Descriptions of Newly discovered Flaws by Analyzing crypto-detectors\xspace .\relax }}{44}{table.caption.7}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces \small Flaws observed in different static crypto-detectors\relax }}{45}{table.caption.8}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces \small Mutants analyzed vs detected by crypto-detectors\xspace \relax }}{45}{table.caption.9}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces \small Descriptions of Original Flaws discovered by Analyzing crypto-detectors\xspace .\relax }}{44}{table.caption.6}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces \small Descriptions of Newly discovered Flaws by Analyzing crypto-detectors\xspace .\relax }}{45}{table.caption.7}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces \small Flaws observed in different static crypto-detectors\relax }}{46}{table.caption.8}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces \small Mutants analyzed vs detected by crypto-detectors\xspace \relax }}{46}{table.caption.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces \small Mutations Generated Across New Applications\relax }}{60}{table.caption.10}%

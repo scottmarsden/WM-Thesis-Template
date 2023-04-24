@@ -4,9 +4,9 @@
     \caption{\small Mutants analyzed vs detected by \detectors}
    	\vspace{-1em}
     \label{tbl:mutations_overall}
-    \def\arraystretch{1.2}
+    %\def\arraystretch{1.2}
     \noindent\makebox[\textwidth]{
-    \begin{tabularx}{.471\textwidth}{p{0.18\linewidth}|p{0.33\linewidth}|p{0.1\linewidth}|X}
+    \begin{tabular}{ |c|c|c|c| }
     
         \textbf{Tool} & \textbf{Input Type} & \textbf{Analyzed} & \textbf{Detected }
         \\ 
@@ -20,13 +20,13 @@
         \\ \hline
         {\em \codeguru} &	Java Src Code 	& 46,967 & 840
         \\ \hline
-        {\em \cryptoguard} &	 \texttt{apk} or \texttt{jar} & 20,303 & 18,616/19,759
+        {\em \cryptoguard} &	 \texttt{apk} or \texttt{jar} & 20,303 & 0
         \\ \hline
         {\em \cognicrypt} &	\texttt{apk} or \texttt{jar}	 & 20,303 & 475
         \\ \hline
         {\em \coverity} &	Android or Java Src Code & 20,303 & 48
         \\ \hline
-        {\em \spotbug} & 	\texttt{jar}  &	17,788 & 	17,715
+        {\em \spotbug} & 	\texttt{jar}  &	17,702 & 	13,848
         \\ \hline
         {\em \qark} &	Java Src Code or \texttt{apk} 	& 46,324 & 0
         \\ \hline
@@ -37,5 +37,5 @@
         {\em \shiftleft} &	Java Src Code 	& 46,252 & 35,200
         \\
         
-\end{tabularx}}
+\end{tabular}}
 \end{table}

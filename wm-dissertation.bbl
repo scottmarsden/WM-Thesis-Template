@@ -144,6 +144,8 @@ Security with {{HTTPS}} and {{SSL} - Android Developers}.
 \bibitem{Choudhari_Guilley_Karray}
 {\sc Amit Choudhari, Sylvain Guilley, and Khaled Karray}.
 \newblock Cryscanner: Finding cryptographic libraries misuse.
+\newblock {\em 2021 8th NAFOSTED Conference on Information and Computer Science
+  (NICS)}, 2021.
 
 \bibitem{codiga}
 Codige - sast: Owasp and cwe.
@@ -403,8 +405,8 @@ pdf-service/md5util.java at elainrd/pdf-servic.
 {\sc N.~Jovanovic, C.~Kruegel, and E.~Kirda}.
 \newblock Pixy: a static analysis tool for detecting web application
   vulnerabilities.
-\newblock In {\em 2006 IEEE Symposium on Security and Privacy (S&P’06)}, page
-  6 pp. – 263, May 2006.
+\newblock In {\em 2006 IEEE Symposium on Security and Privacy (S\&P’06)},
+  page 6 pp. – 263, May 2006.
 
 \bibitem{kmm+19}
 {\sc Kaushal Kafle, Kevin Moran, Sunil Manandhar, Adwait Nadkarni, and Denys
@@ -420,6 +422,15 @@ pdf-service/md5util.java at elainrd/pdf-servic.
   {{A}} systematic literature review.
 \newblock {\em Information and Software Technology}, 51(1):7--15, 2009.
 
+\bibitem{knr+17}
+{\sc Stefan Kr{\"u}ger, Sarah Nadi, Michael Reif, Karim Ali, Mira Mezini, Eric
+  Bodden, Florian G{\"o}pfert, Felix G{\"u}nther, Christian Weinert, Daniel
+  Demmler, and Ram Kamath}.
+\newblock {{CogniCrypt}}: {{Supporting Developers}} in {{Using Cryptography}}.
+\newblock In {\em Proceedings of the {{32Nd IEEE}}/{{ACM International
+  Conference}} on {{Automated Software Engineering}}}, {{ASE}} 2017, pages
+  931--936, {Piscataway, NJ, USA}, 2017. {IEEE Press}.
+
 \bibitem{KSA+18}
 {\sc Stefan Kr{\"u}ger, Johannes Sp{\"a}th, Karim Ali, Eric Bodden, and Mira
   Mezini}.
@@ -430,10 +441,9 @@ pdf-service/md5util.java at elainrd/pdf-servic.
   Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})}, pages
   10:1--10:27. {Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}, 2018.
 
-\bibitem{Krüger_Ali_Bodden_2020}
+\bibitem{Kruger_Ali_Bodden_2020}
 {\sc Stefan Krüger, Karim Ali, and Eric Bodden}.
-\newblock Cognicrypt gen  : generating code for the secure usage of crypto
-  apis.
+\newblock Cognicrypt gen: generating code for the secure usage of crypto apis.
 \newblock In {\em Proceedings of the 18th ACM/IEEE International Symposium on
   Code Generation and Optimization}, page 185–198, San Diego CA USA, Feb
   2020. ACM.
@@ -528,12 +538,6 @@ pdf-service/md5util.java at elainrd/pdf-servic.
 \newblock \url{https://sarifweb.azurewebsites.net/ }.
 \newblock Accessed Jul, 2021.
 
-\bibitem{Oltrogge_Huaman_Amft_Acar_Backes_Fahl}
-{\sc Marten Oltrogge, Nicolas Huaman, Sabrina Amft, Yasemin Acar, Michael
-  Backes, and Sascha Fahl}.
-\newblock Why eve and mallory still love android: Revisiting tls (in)security
-  in android applications.
-
 \bibitem{oha+21}
 {\sc Marten Oltrogge, Nicolas Huaman, Sabrina Amft, Yasemin Acar, Michael
   Backes, and Sascha Fahl}.
@@ -541,6 +545,13 @@ pdf-service/md5util.java at elainrd/pdf-servic.
   (In)Security in Android Applications}.
 \newblock In {\em 30th {USENIX} Security Symposium ({USENIX} Security 21)}.
   {USENIX} Association, August 2021.
+
+\bibitem{Oltrogge_Huaman_Amft_Acar_Backes_Fahl}
+{\sc Marten Oltrogge, Nicolas Huaman, Sabrina Amft, Yasemin Acar, Michael
+  Backes, and Sascha Fahl}.
+\newblock Why eve and mallory still love android: Revisiting tls (in)security
+  in android applications.
+\newblock {\em USENIX Association}, 2021.
 
 \bibitem{jcaHostnameVerifierExample}
 Java {{Secure Socket Extension}} ({{JSSE}}) {{Reference Guide} - Oracle Help
@@ -621,7 +632,7 @@ Java {{Secure Socket Extension}} ({{JSSE}}) {{Reference Guide} - Oracle Help
   }.
 \newblock Accessed Jul, 2021.
 
-\bibitem{Schlichtig_Wickert_Krüger_Bodden_Mezini_2022}
+\bibitem{Schlichtig_Wickert_Kruger_Bodden_Mezini_2022}
 {\sc Michael Schlichtig, Anna-Katharina Wickert, Stefan Krüger, Eric Bodden,
   and Mira Mezini}.
 \newblock Cambench -- cryptographic api misuse detection tool benchmark suite.
@@ -718,7 +729,7 @@ Coverity {{SAST Software}} | {{Synopsys}}.
 \newblock In {\em 2019 {{IEEE}}/{{ACM}} 41st {{International Conference}} on
   {{Software Engineering}} ({{ICSE}})}, pages 866--877, May 2019.
 
-\bibitem{Wickert_Baumgärtner_Breitfelder_Mezini_2021}
+\bibitem{Wickert_Baumgartner_Breitfelder_Mezini_2021}
 {\sc Anna-Katharina Wickert, Lars Baumgärtner, Florian Breitfelder, and Mira
   Mezini}.
 \newblock Python crypto misuses in the wild.

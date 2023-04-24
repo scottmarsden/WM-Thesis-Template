@@ -104,7 +104,7 @@
     \vspace{-0.25em}
     
     
-    \begin{lstlisting}[frame=tb,caption={\small Transformation String formation in Apache Druid similar to \fnumber{2} which uses \AES in \texttt{CBC} mode with \texttt{PKCS5Padding}, a configuration that is known to be a misuse~\cite{FBX+17,owasp:mislabel}.}, label={lst:transformationstring:apache:druid},language=java]
+    \begin{lstlisting}[frame=tb,caption={\small Transformation String formation in Apache Druid similar to \fnumber{2} which uses \AES in \texttt{CBC} mode with \texttt{PKCS5Padding}, a configuration that is known to be a misuse~\cite{FBX+17}.}, label={lst:transformationstring:apache:druid},language=java]
     this.name = name == null ? "AES" : name;
     this.mode = mode == null ? "CBC" : mode;
     this.pad = pad == null ? "PKCS5Padding" : pad;
@@ -266,4 +266,9 @@
 \vspace{-0.25em}
         
 
+%-----------------------------------
+\section{Total Mutations}
+\label{appendixA:totalMutations}
+%-----------------------------------
+\input{tables/mutations_app.tex}
 

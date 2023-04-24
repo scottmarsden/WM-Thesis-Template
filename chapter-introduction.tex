@@ -6,7 +6,7 @@
 
 Cryptography is essential in making sure data is confidential and secure in the modern world. Making sure cryptography primitives are used correctly, however, has always been difficult problem to solve whether it be in critical systems like banking or the widespread misuse of cryptographic API found in mobile and web apps. These misuses can lead to vulnerabilities that allow for data leaks. To solve this problem researchers have designed tools that can be integrated into the development pipeline that catch these misuses and allow developers to find the problems before they release software to the public. These tools are known as crypto-API misuse detectors also known as crypto-detectors. These crypto-detectors are vital to helping keep development of applications secure. However, these crypto-detectors are not without their own faults.
 
-crypto-detectors see widespread use across IDEs, corporate testing suites, by source control platforms (such as GitHub), and comercial use. crypto-detectors are relied upon by many developers that deal with sensitive information, there is an expectation and an assumption that they are reliable. Developers utilize these crypto-detectors to help have peace of mind that their code is now more secure. However, a lot is still unknown about how effective they are at crypto-API misuse despite how eager developers are to adopt them. The MASC framework \cite{Ami_2022}, presented in the orignal paper tried to provide a solution to this problem by providing a framework to evaluate crypto-detectors beyond simple manually created benchmarks.
+crypto-detectors see widespread use across IDEs, corporate testing suites, by source control platforms (such as GitHub), and comercial use. crypto-detectors are relied upon by many developers that deal with sensitive information, there is an expectation and an assumption that they are reliable. Developers utilize these crypto-detectors to help have peace of mind that their code is now more secure. However, a lot is still unknown about how effective they are at crypto-API misuse despite how eager developers are to adopt them. The MASC framework \cite{Ami_2022}, presented in the original paper tried to provide a solution to this problem by providing a framework to evaluate crypto-detectors beyond simple manually created benchmarks.
 
 As described in the original paper MASC is "the first systematic, data-driven framework that leverages the well-founded approach of Mutation Analysis for evaluating Static Crypto-API misuse detectors." MASC is used by a user in a similar manner to typical mutation analysis. MASC is capable of "mutating Android/Java apps by seeding them with mutants" containing crypto-API misuse. The mutated apps can then be analyzed by a crypto-detector and seeing which mutants are not located during the analysis reveals both design and implementation flaws in that crypto-detector.
 
@@ -77,7 +77,7 @@ However, I did try to further capture the T3 developer compared to the original 
 %--------------------------------------
 
 Security researchers have recently shown significant interest in the external validation of static analysis tools
- ~\cite{QWR18,droidbench,iccbench,PBW18,bkm+18,}. %
+ ~\cite{QWR18,droidbench,iccbench,PBW18,bkm+18}. %
 Particularly, there is a growing realization that static analysis security tools are sound in theory, but {\em soundy in practice}, \ie consisting of a core set of sound decisions, as well as certain strategic unsound choices made for practical reasons such as performance or precision~\cite{lss+15}.
 
 Sound{\em y} tools are desirable for security analysis as their sound core ensures sufficient detection of targeted behavior, while also being {\em practical}, \ie without incurring too many false alarms.
@@ -91,6 +91,15 @@ However, in a more general sense, Bonett et al.~\cite{bkm+18} were the first to 
 This assumption does not hold when evaluating \detectors as it is improbable to cast cryptographic misuse as a single mutation, given that cryptographic misuse cases are diverse, and developers may express the same type of misuse in different ways.
 For example, consider three well-known types of misuse that would require unique mutation operators: {\sf (1)} using \DES for encryption (operator inserts prohibited parameter names, \eg\ \DES), {\sf (2)} trusting all SSL/TLS certificates (operator creates a malformed \trustManager), and {\sf (3)} using a predictable initialization vector (IV) (operator derives predictable values for the IV).
 In fact, developers may even express the same misuse in different ways, necessitating unique operators to express such distinct {\em instances}, \eg the \DES misuse expressed differently in Listing~\ref{lst:des-example} and Listing~\ref{lst:des-misuse-2}.
+
+\begin{lstlisting}[frame=tb,caption={\small Instantiating ``DES'' as a cipher instance.}, label={lst:des-example},language=java]
+    String algorithm = "DES";
+    Cipher cipher = Cipher.getInstance(algorithm);
+\end{lstlisting}
+\begin{lstlisting}[frame=tb,caption={\small Instantiating \texttt{DES} as a cipher instance in lower case.}, label={lst:des-misuse-2},language=java]
+    Cipher cipher = Cipher.getInstance("des");
+\end{lstlisting}
+
 Thus, instead of adopting \muse's single-operator approach, \tool designs general usage-based mutation operators that can expressively instantiate misuses from our taxonomy of misuses.
 In a similar manner, \tools contextualized mutation abstractions (\ie for evaluating \detectors) distinguish it from other systems that perform vulnerability injection for C programs~\cite{dhk+16}, discover API misuse using mutation~\cite{WLW+19,GKL+19}, or evaluate static analysis tools for precision using handcrafted benchmarks or user-defined policies~\cite{QWR18,PBW18}.
 
@@ -100,7 +109,7 @@ Particularly, prior work provides rule-sets or benchmarks~\cite{BDA+17,BDA+19} c
 However, we believe that the new extended taxonomy is the most systematically-driven and comprehensive taxonomy of {\em crypto-API} misuse, that is further expanded upon into numerous unique misuse instances through \tools operators.
 Thus, relative to prior handcrafted benchmarks, \tool can thoroughly test detectors with a far more comprehensive set of crypto-misuse instances.
 
-In addition to the previous work while working on the extension I also looked at other tools trying to accomplish similar goals to MASC such as \cite{Afrose_Xiao_Rahaman_Miller_Yao_2022} and \cite{Schlichtig_Wickert_Krüger_Bodden_Mezini_2022}. I compared what we have done to what these tools are trying to do to ensure that MASC is still state of the art and is keeping up to date with other tools. MASC is still capable of doing more with mutation testing and its operators than these other tools. I still believe MASC is the state of the art tool for identifying flaws in Crypto-Detectors especially after the extension of work.
+In addition to the previous work while working on the extension I also looked at other tools trying to accomplish similar goals to MASC such as \cite{Afrose_Xiao_Rahaman_Miller_Yao_2022} and \cite{Schlichtig_Wickert_Kruger_Bodden_Mezini_2022}. I compared what we have done to what these tools are trying to do to ensure that MASC is still state of the art and is keeping up to date with other tools. MASC is still capable of doing more with mutation testing and its operators than these other tools. I still believe MASC is the state of the art tool for identifying flaws in Crypto-Detectors especially after the extension of work.
 
 
 
