@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  24 APR 2023 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.2)  24 APR 2023 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1016,7 +1016,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 [2] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/abstract.tex) [3] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.tocpdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 ...numberline {3.4}MASC Web}{31}{section.3.4}
+l.21 ...ne {5}Results and Findings}{38}{chapter.5}
                                                   % [1])
 \tf@toc=\write5
 \openout5 = `wm-dissertation.toc'.
@@ -1029,11 +1029,11 @@ l.146 \makeThesisProlog
 <to be read again> 
                    \relax 
 l.146 \makeThesisProlog
-                        [3] [4] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lot)
+                        [3] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lot)
 \tf@lot=\write6
 \openout6 = `wm-dissertation.lot'.
 
- [5] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lof
+ [4] (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.lof
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1041,7 +1041,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 \tf@lof=\write7
 \openout7 = `wm-dissertation.lof'.
 
- [6]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+ [5]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.146 \makeThesisProlog
@@ -1067,7 +1067,7 @@ Overfull \hbox (5.98648pt too wide) in paragraph at lines 130--131
 
  (/Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/Chapter-Framework.tex
 Chapter 2.
-<figures/overview.pdf, id=373, 455.7025pt x 198.7425pt>
+<figures/overview.pdf, id=365, 455.7025pt x 198.7425pt>
 File: figures/overview.pdf Graphic file (type pdf)
 <use figures/overview.pdf>
 Package pdftex.def Info: figures/overview.pdf  used on input line 7.
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: figures/overview.pdf  used on input line 7.
 
 
  </Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/figures/overview.pdf>]
-<figures/taxonomy.pdf, id=442, 912.40875pt x 836.12375pt>
+<figures/taxonomy.pdf, id=434, 912.40875pt x 836.12375pt>
 File: figures/taxonomy.pdf Graphic file (type pdf)
 <use figures/taxonomy.pdf>
 Package pdftex.def Info: figures/taxonomy.pdf  used on input line 31.
@@ -1099,7 +1099,7 @@ Chapter 3.
 
 
 ] [25]
-<figures/architecture.png, id=600, 1059.96pt x 819.06pt>
+<figures/architecture.png, id=592, 1059.96pt x 819.06pt>
 File: figures/architecture.png Graphic file (type png)
 <use figures/architecture.png>
 Package pdftex.def Info: figures/architecture.png  used on input line 21.
@@ -1642,21 +1642,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--717
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `wm-dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: F88BDF0E78F5A22BD2D826F08635EF18;4400.
+(rerunfilecheck)             Checksum: 4EC075D7FB112D422A3D1BB99D954E18;4306.
  ) 
 Here is how much of TeX's memory you used:
- 28659 strings out of 478994
- 505174 string characters out of 5858185
- 1155634 words of memory out of 5000000
+ 28658 strings out of 478994
+ 505167 string characters out of 5858185
+ 1155632 words of memory out of 5000000
  45052 multiletter control sequences out of 15000+600000
  434331 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,17n,117p,2495b,1966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfxc0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.pdf (88 pages, 1494512 bytes).
+Output written on /Users/scottmarsden/Documents/GitHub/WM-Thesis-Template/wm-dissertation.pdf (87 pages, 1494110 bytes).
 PDF statistics:
- 1409 PDF objects out of 1440 (max. 8388607)
- 1197 compressed objects within 12 object streams
- 418 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1401 PDF objects out of 1440 (max. 8388607)
+ 1190 compressed objects within 12 object streams
+ 417 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

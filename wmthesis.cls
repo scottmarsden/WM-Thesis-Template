@@ -168,7 +168,7 @@
 	\makeacknowledgepage
 %%--------------------------------------------
 %%-- dedication page
-	\makededicationpage
+	%\makededicationpage
 %%--------------------------------------------
 %%-- List of tables and/or figures.
 	\maketablesfigurespage

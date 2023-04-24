@@ -1,7 +1,6 @@
 \contentsline {chapter}{\rm Acknowledgments}{iii}{Doc-Start}%
-\contentsline {chapter}{\rm Dedication}{iv}{Doc-Start}%
-\contentsline {chapter}{\rm List of Tables}{v}{Doc-Start}%
-\contentsline {chapter}{\rm List of Figures}{vi}{Doc-Start}%
+\contentsline {chapter}{\rm List of Tables}{iv}{Doc-Start}%
+\contentsline {chapter}{\rm List of Figures}{v}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Overview}{3}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Motivation and Background}{6}{subsection.1.1.1}%
