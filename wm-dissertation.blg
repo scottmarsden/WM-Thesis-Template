@@ -22,47 +22,45 @@ Warning--empty journal in Schlichtig_Wickert_Kruger_Bodden_Mezini_2022
 Warning--there's a number but no volume in Schlichtig_Wickert_Kruger_Bodden_Mezini_2022
 Warning--empty journal in Yan_Xu_Rountev
 Warning--empty year in Yan_Xu_Rountev
-Warning--empty journal in Zhang_Chen_Diao_Guo_Weng_Zhang
-Warning--empty year in Zhang_Chen_Diao_Guo_Weng_Zhang
-You've used 117 entries,
+You've used 115 entries,
             2136 wiz_defined-function locations,
-            1144 strings with 30931 characters,
-and the built_in function-call counts, 39893 in all, are:
-= -- 3919
-> -- 1804
-< -- 36
-+ -- 744
-- -- 621
-* -- 2600
-:= -- 5782
-add.period$ -- 374
-call.type$ -- 117
-change.case$ -- 708
+            1136 strings with 30575 characters,
+and the built_in function-call counts, 38955 in all, are:
+= -- 3834
+> -- 1743
+< -- 35
++ -- 720
+- -- 599
+* -- 2533
+:= -- 5641
+add.period$ -- 369
+call.type$ -- 115
+change.case$ -- 691
 chr.to.int$ -- 0
-cite$ -- 132
-duplicate$ -- 1739
-empty$ -- 3299
-format.name$ -- 621
-if$ -- 8909
+cite$ -- 128
+duplicate$ -- 1694
+empty$ -- 3242
+format.name$ -- 599
+if$ -- 8708
 int.to.chr$ -- 0
-int.to.str$ -- 117
-missing$ -- 68
-newline$ -- 589
-num.names$ -- 140
-pop$ -- 1019
+int.to.str$ -- 115
+missing$ -- 66
+newline$ -- 580
+num.names$ -- 136
+pop$ -- 994
 preamble$ -- 1
-purify$ -- 591
+purify$ -- 576
 quote$ -- 0
-skip$ -- 1420
+skip$ -- 1380
 stack$ -- 0
-substring$ -- 1764
-swap$ -- 672
-text.length$ -- 36
+substring$ -- 1736
+swap$ -- 649
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 466
-warning$ -- 15
-while$ -- 231
-width$ -- 120
-write$ -- 1239
-(There were 15 warnings)
+type$ -- 458
+warning$ -- 13
+while$ -- 226
+width$ -- 118
+write$ -- 1221
+(There were 13 warnings)

@@ -148,7 +148,7 @@ Security with {{HTTPS}} and {{SSL} - Android Developers}.
   (NICS)}, 2021.
 
 \bibitem{codiga}
-Codige - sast: Owasp and cwe.
+Codiga - sast: Owasp and cwe.
 \newblock
   \url{https://www.codiga.io/static-code-analysis/sast-owasp10-sans25/}.
 \newblock Accessed Mar, 2023.
@@ -262,13 +262,6 @@ F-{{Droid}} - {{Free}} and {{Open Source Android App Repository}}.
 \newblock In {\em 2019 {{IEEE}}/{{ACM}} 16th {{International Conference}} on
   {{Mining Software Repositories}} ({{MSR}})}, pages 388--398, {Montreal, QC,
   Canada}, May 2019. {IEEE}.
-
-\bibitem{Gao_Kong_Li_Bissyandé_Klein_2019}
-{\sc Jun Gao, Pingfan Kong, Li~Li, Tegawendé~F. Bissyandé, and Jacques
-  Klein}.
-\newblock Negative results on mining crypto-api usage rules in android apps.
-\newblock In {\em 2019 IEEE/ACM 16th International Conference on Mining
-  Software Repositories (MSR)}, page 388–398, May 2019.
 
 \bibitem{apache_ignite}
 {Apache Ignite}.
@@ -755,12 +748,6 @@ Coverity {{SAST Software}} | {{Synopsys}}.
 \bibitem{Yan_Xu_Rountev}
 {\sc Dacong Yan, Guoqing Xu, and Atanas Rountev}.
 \newblock Demand-driven context-sensitive alias analysis for java.
-
-\bibitem{Zhang_Chen_Diao_Guo_Weng_Zhang}
-{\sc Li~Zhang, Jiongyi Chen, Wenrui Diao, Shanqing Guo, Jian Weng, and Kehuan
-  Zhang}.
-\newblock Cryptorex: Large-scale analysis of cryptographic misuse in iot
-  devices.
 
 \bibitem{ZCD+19}
 {\sc Li~Zhang, Jiongyi Chen, Wenrui Diao, Shanqing Guo, Jian Weng, and Kehuan
